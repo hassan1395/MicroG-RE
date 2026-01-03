@@ -83,8 +83,8 @@
     <string name="self_check_name_battery_optimizations">تجاهل تحسينات البطارية</string>
     <string name="self_check_resolution_battery_optimizations">اضغط هنا لتعطيل تحسينات البطارية. عدم القيام بذلك قد يؤدي إلى مشاكل في تلقي الإشعارات من YouTube والتطبيقات الأخرى المسجلة</string>
 
-    <string name="self_check_revanced_name_app_installed">تشغيل مع <xliff:g example="F-Droid">%1$s</xliff:g></string>
-    <string name="self_check_revanced_resolution_app_installed">تطبيقات <xliff:g example="F-Droid">%1$s</xliff:g> غير موجودة، قم بتجميع أو تثبيت ملف apk معدل</string>
+    <string name="self_check_patched_app_installed">تشغيل مع <xliff:g example="F-Droid">%1$s</xliff:g></string>
+    <string name="self_check_resolution_patched_app_installed">تطبيقات <xliff:g example="F-Droid">%1$s</xliff:g> غير موجودة، قم بتجميع أو تثبيت ملف apk معدل</string>
 
     <!-- Settings strings -->
 

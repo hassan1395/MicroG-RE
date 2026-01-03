@@ -81,8 +81,8 @@ Isso pode levar alguns minutos. Por favor, seja paciente."</string>
     <string name="self_check_name_battery_optimizations">Otimização de bateria ignorada</string>
     <string name="self_check_resolution_battery_optimizations">Toque aqui para desativar as otimizações de bateria. Não fazer isso pode resultar em problemas no recebimento de notificações do YouTube e outros aplicativos registrados</string>
 
-    <string name="self_check_revanced_name_app_installed">Executando com <xliff:g example="F-Droid">%1$s</xliff:g></string>
-    <string name="self_check_revanced_resolution_app_installed">Aplicativos <xliff:g example="F-Droid">%1$s</xliff:g> não encontrados, compile ou instale um apk modificado</string>
+    <string name="self_check_patched_app_installed">Executando com <xliff:g example="F-Droid">%1$s</xliff:g></string>
+    <string name="self_check_resolution_patched_app_installed">Aplicativos <xliff:g example="F-Droid">%1$s</xliff:g> não encontrados, compile ou instale um apk modificado</string>
 
     <!-- Settings strings -->
 

@@ -88,8 +88,8 @@ Bu işlem birkaç dakika sürebilir."</string>
     <string name="self_check_name_battery_optimizations">Pil optimizasyonları yok sayıldı</string>
     <string name="self_check_resolution_battery_optimizations">Pil optimizasyonlarını devre dışı bırakmak için buraya dokunun. Bunu yapmazsanız YouTube ve diğer kayıtlı uygulamalardan bildirim almada sorun yaşayabilirsiniz</string>
 
-    <string name="self_check_revanced_name_app_installed"><xliff:g example="F-Droid">%1$s</xliff:g> ile çalışıyor</string>
-    <string name="self_check_revanced_resolution_app_installed"><xliff:g example="F-Droid">%1$s</xliff:g> uygulamaları bulunamadı, değiştirilmiş bir APK derleyin veya yükleyin</string>
+    <string name="self_check_patched_app_installed"><xliff:g example="F-Droid">%1$s</xliff:g> ile çalışıyor</string>
+    <string name="self_check_resolution_patched_app_installed"><xliff:g example="F-Droid">%1$s</xliff:g> uygulamaları bulunamadı, değiştirilmiş bir APK derleyin veya yükleyin</string>
 
     <!-- Settings strings -->
 

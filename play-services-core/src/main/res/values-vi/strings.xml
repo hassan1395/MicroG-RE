@@ -81,12 +81,8 @@ Việc này có thể tốn thời gian"</string>
     <string name="self_check_name_battery_optimizations">Vô hiệu hoá tối ưu pin cho ứng dụng</string>
     <string name="self_check_resolution_battery_optimizations">Bấm vào đây để bật khả năng chạy ngầm liên tục cho ứng dụng để tránh lỗi (Một vài OEM sẽ yêu cầu bật tự động chạy, vui lòng tự tìm hiểu)</string>
 
-    <string name="self_check_pkg_revanced">ReVanced</string>
-    <string name="self_check_pkg_revanced_extended">ReVanced Extended</string>
-    <string name="self_check_pkg_youtube_advanced">YT Advanced</string>
-    <string name="self_check_pkg_vanced">Vanced</string>
-    <string name="self_check_revanced_name_app_installed">Đang chạy với <xliff:g example="F-Droid">%1$s</xliff:g></string>
-    <string name="self_check_revanced_resolution_app_installed"><xliff:g example="F-Droid">%1$s</xliff:g> ứng dụng không tìm thấy hoặc đã bị chỉnh sửa</string>
+    <string name="self_check_patched_app_installed">Đang chạy với <xliff:g example="F-Droid">%1$s</xliff:g></string>
+    <string name="self_check_resolution_patched_app_installed"><xliff:g example="F-Droid">%1$s</xliff:g> ứng dụng không tìm thấy hoặc đã bị chỉnh sửa</string>
 
     <!-- Settings strings -->
 
