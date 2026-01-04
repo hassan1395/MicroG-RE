@@ -27,8 +27,8 @@ import okhttp3.Response;
 
 public class UpdateChecker {
 
-    private static final String GITHUB_API_URL = "https://api.github.com/repos/WSTxda/MicroG-RE/releases/latest";
-    private static final String GITHUB_RELEASE_LINK = "https://github.com/WSTxda/MicroG-RE/releases/latest";
+    private static final String GITHUB_API_URL = "https://api.github.com/repos/MorpheApp/MicroG-RE/releases/latest";
+    private static final String GITHUB_RELEASE_LINK = "https://github.com/MorpheApp/MicroG-RE/releases/latest";
 
     private final WeakReference<Context> contextRef;
     private final OkHttpClient client;
@@ -54,7 +54,7 @@ public class UpdateChecker {
     private String fetchLatestVersion() {
         Request request = new Request.Builder().url(GITHUB_API_URL).build();
         try (Response response = client.newCall(request).execute()) {
-            if (response.isSuccessful() && response.body() != null) {
+            if (response.isSuccessful()) {
                 return parseLatestVersion(response.body().string());
             } else {
                 throw new IOException("Unsuccessful response: " + response.code());
