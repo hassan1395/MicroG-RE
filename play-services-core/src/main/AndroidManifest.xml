@@ -470,7 +470,7 @@
             android:exported="false"
             android:process=":ui"
             android:taskAffinity="org.microg.gms.settings"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppTheme.Login">
             <intent-filter>
                 <action android:name="com.google.android.gms.accountsettings.MY_ACCOUNT" />
                 <action android:name="com.google.android.gms.accountsettings.ACCOUNT_PREFERENCES_SETTINGS" />
@@ -487,7 +487,8 @@
             android:exported="true"
             android:process=":ui"
             android:targetActivity="org.microg.gms.ui.AccountManagerActivity"
-            android:taskAffinity="org.microg.gms.settings">
+            android:taskAffinity="org.microg.gms.settings"
+            android:theme="@style/AppTheme.Login">
             <intent-filter tools:ignore="AppLinkUrlError">
                 <action android:name="com.google.android.gms.accountsettings.action.VIEW_SETTINGS" />
                 <action android:name="${basePackageName}.android.gms.accountsettings.action.VIEW_SETTINGS" />
