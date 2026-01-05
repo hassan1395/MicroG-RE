@@ -59,6 +59,13 @@
         android:title="@string/pref_hide_launcher_icon" />
 
     <Preference
+        android:icon="@drawable/ic_self_check"
+        android:layout="@layout/preference_material_middle"
+        android:title="@string/self_check_title"
+        android:summary="@string/self_check_desc"
+        android:key="pref_self_check" />
+
+    <Preference
         android:icon="@drawable/ic_github"
         android:key="pref_github"
         android:layout="@layout/preference_material_middle"

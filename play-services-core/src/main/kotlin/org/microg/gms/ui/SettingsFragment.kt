@@ -43,6 +43,7 @@ class SettingsFragment : ResourceSettingsFragment() {
         const val PREF_CHECKIN = "pref_checkin"
         const val PREF_ACCOUNTS = "pref_accounts"
         const val PREF_HIDE_LAUNCHER_ICON = "pref_hide_launcher_icon"
+        const val PREF_SELF_CHECK = "pref_self_check"
         const val PREF_GITHUB = "pref_github"
 
         private const val ACTIVITY_LAUNCHER_CONTROL = "org.microg.gms.ui.SettingsActivityLauncher"
@@ -101,6 +102,10 @@ class SettingsFragment : ResourceSettingsFragment() {
         findPreference<SwitchPreferenceCompat>(PREF_HIDE_LAUNCHER_ICON)?.setOnPreferenceChangeListener { _, newValue ->
             val hide = newValue as Boolean
             toggleLauncherIconVisibility(show = !hide)
+            true
+        }
+        findPreference<Preference>(PREF_SELF_CHECK)?.setOnPreferenceClickListener {
+            findNavController().navigate(requireContext(), R.id.selfcheckFragment)
             true
         }
         findPreference<Preference>(PREF_GITHUB)?.setOnPreferenceClickListener {

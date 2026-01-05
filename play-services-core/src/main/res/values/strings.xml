@@ -66,6 +66,7 @@ This can take a couple of minutes"</string>
 
     <string name="self_check_cat_fake_sig">Signature spoofing support</string>
     <string name="self_check_cat_gms_packages">Installed packages</string>
+    <string name="self_check_cat_patched_apps">Patched apps</string>
     <string name="self_check_cat_system">System</string>
 
     <string name="self_check_name_fake_sig_perm">System has signature spoofing support</string>
@@ -82,11 +83,26 @@ This can take a couple of minutes"</string>
     <string name="self_check_name_correct_sig"><xliff:g example="F-Droid">%1$s</xliff:g> correct signature</string>
     <string name="self_check_resolution_correct_sig">Either the installed <xliff:g example="F-Droid">%1$s</xliff:g> is not compatible or signature spoofing is not active for it. Please check the documentation on which applications and ROMs are compatible</string>
 
-    <string name="self_check_name_battery_optimizations">Battery optimizations ignored</string>
-    <string name="self_check_resolution_battery_optimizations">Touch here to disable battery optimizations. Not doing so may result in issues receiving notifications from YouTube and other registered apps</string>
+    <string name="self_check_name_oem_restriction">Background process restrictions</string>
+    <string name="self_check_resolution_oem_restriction">Your system may restrict background processes. Tap here to open <b>Don’t Kill My App!</b> site and learn how to disable these restrictions</string>
 
-    <string name="self_check_patched_app_installed">Running with <xliff:g example="F-Droid">%1$s</xliff:g></string>
-    <string name="self_check_resolution_patched_app_installed"><xliff:g example="F-Droid">%1$s</xliff:g> apps not found, compile or install a modified apk</string>
+    <string name="self_check_name_battery_optimizations">Battery optimizations disabled</string>
+    <string name="self_check_resolution_battery_optimizations">Tap here to disable battery optimizations. If left enabled, you may experience issues receiving notifications from YouTube and other registered apps</string>
+
+    <string name="self_check_name_overlay">Display over other apps allowed</string>
+    <string name="self_check_resolution_overlay">Tap here to grant this permission. This permission is required to show popup alerts on top of other apps</string>
+
+    <string name="self_check_name_notifications">Notifications allowed</string>
+    <string name="self_check_resolution_notifications">Tap here to open notification settings. Notifications are used to keep <b>GcmService</b> running in the background when battery optimization is enabled or under other conditions</string>
+
+    <string name="self_check_source_morphe">Morphe Patches</string>
+    <string name="self_check_source_alternative">alternative patches</string>
+
+    <string name="self_check_action_download_morphe">Download Morphe</string>
+
+    <string name="self_check_patched_app_installed">Running with <xliff:g example="Morphe">%1$s</xliff:g></string>
+    <string name="self_check_resolution_patched_app_installed">Apps using <xliff:g example="Morphe">%1$s</xliff:g> not found. Please patch and install the modified APK</string>
+    <string name="self_check_resolution_detected_apps">Detected: <xliff:g example="YouTube, Music">%1$s</xliff:g></string>
 
     <!-- Settings strings -->
 
