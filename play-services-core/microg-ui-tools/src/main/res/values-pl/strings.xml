@@ -15,39 +15,50 @@
   -->
 
 <resources>
+
+    <!--Updater-->
+
+    <string name="check_updates">Sprawdź aktualizacje</string>
+    <!--updater: messages-->
+    <string name="update_available">Dostępna nowa wersja!</string>
+    <string name="no_update_available">Masz najnowszą wersję</string>
+    <string name="check_updates_error">Nie można sprawdzić aktualizacji</string>
+    <!--updater: actions-->
+    <string name="download_button">Pobierz</string>
+    <!--updater: error-->
+    <string name="error_connection">Błąd połączenia:</string>
+    <string name="error_others">Błąd:</string>
+
+    <!--Settings About-->
+
+    <string name="about_morphe_description">Morphe to projekt typu open-source zaprojektowany do modyfikowania aplikacji na Androida za pomocą łatek</string>
     <string name="about_version_str">Wersja: %1$s</string>
+    <string name="about_name_version_str">%1$s %2$s</string>
     <string name="about_default_license">Wszelkie prawa zastrzeżone</string>
 
-    <string name="morphe_description">Morphe to projekt typu open-source zaprojektowany do modyfikowania aplikacji na Androida za pomocą łatek</string>
+    <!--Self Check-->
 
-    <string name="prefcat_setup">Konfiguracja</string>
-
-    <string name="self_check_title">Samosprawdzanie</string>
-    <string name="self_check_desc">Sprawdź, czy system jest prawidłowo skonfigurowany do korzystania z microG</string>
-
-    <string name="self_check_cat_permissions">Udzielone uprawnienia</string>
+    <!--self-check: permission-->
+    <string name="self_check_cat_permissions">Uprawnienia</string>
     <string name="self_check_name_permission">Uprawnienie do %1$s:</string>
     <string name="self_check_resolution_permission">Stuknij tutaj, aby udzielić uprawnienia. Nieudzielenie uprawnienia może spowodować nieprawidłowe działanie aplikacji</string>
 
+    <!--Settings Preferences-->
+
+    <!--preferences: self-check-->
+    <string name="self_check_title">Samosprawdzanie</string>
+    <string name="self_check_desc">Sprawdź, czy urządzenie jest poprawnie skonfigurowane do korzystania z MicroG</string>
+
+    <!--UI preview-->
+
+    <string name="lib_name">Narzędzia UI MicroG</string>
+    <string name="lib_license">Licencja Apache 2.0, zespół microG</string>
     <string name="about_root_title">Demo MicroG UI</string>
     <string name="about_root_summary">Podsumowanie</string>
     <string name="about_root_version">Wersja v0.1.0</string>
-    <string name="about_root_libraries">Zawarte biblioteki</string>
-
+    <string name="about_root_libraries">Użyte biblioteki</string>
     <string name="about_android_support_v4">Biblioteka wsparcia v4</string>
     <string name="about_android_support_v7_appcompat">Biblioteka wsparcia appcompat v7</string>
     <string name="about_android_support_v7_preference">Biblioteka wsparcia preferencji v7</string>
     <string name="about_android_support_license">Licencja Apache 2.0, Android Open Source Project</string>
-
-    <!-- Aktualizator -->
-
-    <string name="check_updates">Sprawdź aktualizacje</string>
-    <string name="update_available">Dostępna nowa wersja!</string>
-    <string name="no_update_available">Masz najnowszą wersję</string>
-    <string name="check_updates_error">Nie można sprawdzić aktualizacji</string>
-
-    <string name="snackbar_button_download">Pobierz</string>
-
-    <string name="error_connection">Błąd połączenia:</string>
-    <string name="error_others">Błąd:</string>
 </resources>

@@ -269,7 +269,7 @@
             android:name="org.microg.gms.auth.login.LoginActivity"
             android:configChanges="uiMode|orientation|keyboardHidden|keyboard|screenSize"
             android:exported="true"
-            android:label="@string/pref_accounts_add_account_title"
+            android:label="@string/auth_add_account"
             android:launchMode="singleTask"
             android:process=":ui"
             android:theme="@style/AppTheme.Login"

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Copyright (C) 2017 microG Project Team
   ~
@@ -16,16 +15,29 @@
   -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--Google Cloud Messaging-->
+
     <plurals name="gcm_registered_apps_counter">
         <item quantity="one"><xliff:g example="1">%1$d</xliff:g> зареєстрований додаток</item>
-        <item quantity="other"><xliff:g example="123">%1$d</xliff:g> зареєстровані додатки</item>
+        <item quantity="few"><xliff:g example="2">%1$d</xliff:g> зареєстровані додатки</item>
+        <item quantity="many"><xliff:g example="123">%1$d</xliff:g> зареєстрованих додатків</item>
+        <item quantity="other"><xliff:g example="123">%1$d</xliff:g> зареєстрованих додатків</item>
     </plurals>
+
+    <!--Conditions-->
+
     <plurals name="cond_perm_summary">
-        <item quantity="one">Не надано дозвіл, необхідний для належної роботи сервісів microG.</item>
-        <item quantity="other">Не надано дозволів, необхідних для належної роботи сервісів microG.</item>
+        <item quantity="one">Дозвіл, необхідний для належної роботи сервісів MicroG, не надано.</item>
+        <item quantity="few">Дозволи, необхідні для належної роботи сервісів MicroG, не надано.</item>
+        <item quantity="many">Дозволи, необхідні для належної роботи сервісів MicroG, не надано.</item>
+        <item quantity="other">Дозволи, необхідні для належної роботи сервісів MicroG, не надано.</item>
     </plurals>
+
     <plurals name="cond_perm_action">
         <item quantity="one">Запитати відсутній дозвіл</item>
+        <item quantity="few">Запитати відсутні дозволи</item>
+        <item quantity="many">Запитати відсутні дозволи</item>
         <item quantity="other">Запитати відсутні дозволи</item>
     </plurals>
 </resources>

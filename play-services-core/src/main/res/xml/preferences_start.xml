@@ -69,8 +69,8 @@
         android:icon="@drawable/ic_github"
         android:key="pref_github"
         android:layout="@layout/preference_material_middle"
-        android:summary="@string/github_source"
-        android:title="@string/github" />
+        android:summary="@string/pref_github_summary"
+        android:title="@string/pref_github" />
 
     <Preference
         android:icon="@drawable/ic_information"

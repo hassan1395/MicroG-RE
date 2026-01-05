@@ -20,7 +20,6 @@ import android.accounts.Account;
 import android.accounts.AccountAuthenticatorResponse;
 import android.accounts.AccountManager;
 import android.annotation.SuppressLint;
-import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -30,9 +29,7 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Base64;
 import android.util.Log;
-import android.view.ContextThemeWrapper;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -67,14 +64,12 @@ import org.microg.gms.profile.Build;
 import org.microg.gms.profile.ProfileManager;
 
 import java.io.IOException;
-import java.security.MessageDigest;
 import java.util.Locale;
 import java.util.Objects;
 
 import static android.accounts.AccountManager.PACKAGE_NAME_KEY_LEGACY_NOT_VISIBLE;
 import static android.accounts.AccountManager.VISIBILITY_USER_MANAGED_VISIBLE;
 import static android.os.Build.VERSION.SDK_INT;
-import static android.os.Build.VERSION_CODES_FULL.LOLLIPOP;
 import static android.telephony.TelephonyManager.SIM_STATE_UNKNOWN;
 import static android.view.KeyEvent.KEYCODE_BACK;
 import static android.view.View.INVISIBLE;
@@ -186,7 +181,7 @@ public class LoginActivity extends AssistantActivity {
             }
         } else {
             setMessage(R.string.auth_before_connect);
-            setSpoofButtonText(R.string.brand_spoof_button);
+            setSpoofButtonText(R.string.auth_huawei_button);
             setNextButtonText(R.string.auth_sign_in);
         }
     }
@@ -248,7 +243,7 @@ public class LoginActivity extends AssistantActivity {
     }
 
     private void init() {
-        setTitle(R.string.just_a_sec);
+        setTitle(R.string.auth_just_a_sec);
         setSpoofButtonText(null);
         setNextButtonText(null);
         View loading = getLayoutInflater().inflate(R.layout.login_assistant_loading, authContent, false);
@@ -315,12 +310,12 @@ public class LoginActivity extends AssistantActivity {
                 loadLoginPage();
             }
         } else {
-            showError(R.string.no_network_error_desc);
+            showError(R.string.auth_no_network_error_desc);
         }
     }
 
     private void showError(int errorRes) {
-        setTitle(R.string.sorry);
+        setTitle(R.string.auth_sorry);
         findViewById(R.id.progress_bar).setVisibility(View.INVISIBLE);
         setMessage(errorRes);
     }

@@ -116,7 +116,7 @@ class AccountsFragment : PreferenceFragmentCompat() {
 
     private fun addAccountFab() {
         fab = requireActivity().findViewById(R.id.preference_fab)
-        fab.text = getString(R.string.pref_accounts_add_account_title)
+        fab.text = getString(R.string.auth_add_account)
         fab.setIconResource(R.drawable.ic_add)
         fab.setOnClickListener {
             startActivitySafely(LoginActivity::class.java, "Failed to launch login activity")

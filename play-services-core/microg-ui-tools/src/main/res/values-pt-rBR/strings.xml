@@ -15,32 +15,50 @@
   -->
 
 <resources>
-    <string name="about_version_str">Versão: %1$s</string>
-    <string name="about_default_license">Todos os direitos reservados</string>
 
-    <string name="morphe_description">Morphe é um projeto de código aberto projetado para modificar aplicativos Android através de patches</string>
-
-    <string name="prefcat_setup">Configurar</string>
-
-    <string name="self_check_title">Auto-verificação</string>
-    <string name="self_check_desc">Verificar se o sistema está corretamente configurado para usar o MicroG</string>
-
-    <string name="self_check_cat_permissions">Permissões concedidas</string>
-    <string name="self_check_name_permission">Permissão para %1$s:</string>
-    <string name="self_check_resolution_permission">Toque aqui para conceder permissão. Não conceder a permissão pode resultar em comportamento inadequado dos aplicativos</string>
-
-    <string name="about_root_summary">Resumo</string>
-    <string name="about_root_libraries">Bibliotecas incluídas</string>
-
-    <!-- Updater strings-->
+    <!--Updater-->
 
     <string name="check_updates">Verificar atualizações</string>
+    <!--updater: messages-->
     <string name="update_available">Nova versão disponível!</string>
     <string name="no_update_available">Sua versão é a mais recente</string>
-    <string name="check_updates_error">Erro ao tentar verificar</string>
-
-    <string name="snackbar_button_download">Baixar</string>
-
+    <string name="check_updates_error">Erro ao tentar verificar por atualizações</string>
+    <!--updater: actions-->
+    <string name="download_button">Baixar</string>
+    <!--updater: error-->
     <string name="error_connection">Erro de conexão:</string>
     <string name="error_others">Erro:</string>
+
+    <!--Settings About-->
+
+    <string name="about_morphe_description">Morphe é um projeto de código aberto projetado para modificar aplicativos Android através de patches</string>
+    <string name="about_version_str">Versão: %1$s</string>
+    <string name="about_name_version_str">%1$s %2$s</string>
+    <string name="about_default_license">Todos os direitos reservados</string>
+
+    <!--Self Check-->
+
+    <!--self-check: permission-->
+    <string name="self_check_cat_permissions">Permissões</string>
+    <string name="self_check_name_permission">Permissão para %1$s:</string>
+    <string name="self_check_resolution_permission">Toque aqui para conceder permissão. Não concedê-la pode resultar em comportamento inadequado dos aplicativos</string>
+
+    <!--Settings Preferences-->
+
+    <!--preferences: self-check-->
+    <string name="self_check_title">Auto-verificação</string>
+    <string name="self_check_desc">Verifique se o dispositivo está configurado corretamente para usar o MicroG</string>
+
+    <!--UI preview-->
+
+    <string name="lib_name">Ferramentas de UI do MicroG</string>
+    <string name="lib_license">Apache License 2.0, equipe microG</string>
+    <string name="about_root_title">MicroG UI Demo</string>
+    <string name="about_root_summary">Resumo</string>
+    <string name="about_root_version">Versão v0.1.0</string>
+    <string name="about_root_libraries">Bibliotecas utilizadas</string>
+    <string name="about_android_support_v4">v4 Support Library</string>
+    <string name="about_android_support_v7_appcompat">v7 appcompat Support Library</string>
+    <string name="about_android_support_v7_preference">v7 preference Support Library</string>
+    <string name="about_android_support_license">Apache License 2.0, The Android Open Source Project</string>
 </resources>

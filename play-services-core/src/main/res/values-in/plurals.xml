@@ -1,4 +1,3 @@
-
 <!--
   ~ Copyright (C) 2017 microG Project Team
   ~
@@ -15,14 +14,24 @@
   ~ limitations under the License.
   -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <plurals name="gcm_registered_apps_counter">
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--Google Cloud Messaging-->
+
+    <plurals name="gcm_registered_apps_counter" tools:ignore="UnusedQuantity">
+        <item quantity="one"><xliff:g example="1">%1$d</xliff:g> Aplikasi terdaftar</item>
         <item quantity="other"><xliff:g example="123">%1$d</xliff:g> Aplikasi terdaftar</item>
     </plurals>
-    <plurals name="cond_perm_summary">
+
+    <!--Conditions-->
+
+    <plurals name="cond_perm_summary" tools:ignore="UnusedQuantity">
+        <item quantity="one">Izin yang diperlukan agar Layanan MicroG berfungsi dengan benar tidak diberikan.</item>
         <item quantity="other">Beberapa izin yang diperlukan untuk fungsionalitas yang tepat dari Layanan microG belum diberikan.</item>
     </plurals>
-    <plurals name="cond_perm_action">
+
+    <plurals name="cond_perm_action" tools:ignore="UnusedQuantity">
+        <item quantity="one">Minta izin yang hilang</item>
         <item quantity="other">Minta izin yang hilang</item>
     </plurals>
 </resources>

@@ -4,19 +4,25 @@
   -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--Foreground service notification-->
+
     <string name="foreground_service_notification_title">نشط في الخلفية</string>
     <string name="foreground_service_notification_text"><xliff:g example="Exposure Notification">%1$s</xliff:g> يعمل في الخلفية</string>
-    <string name="foreground_service_notification_big_text">استبعد <xliff:g example="خدمات microG">%1$s</xliff:g> من تحسينات البطارية أو قم بتغيير إعدادات الإشعارات لإخفاء هذا الإشعار</string>
+    <string name="foreground_service_notification_big_text">استبعد <xliff:g example="microG Services">%1$s</xliff:g> من تحسينات البطارية أو قم بتغيير إعدادات الإشعارات لإخفاء هذا الإشعار</string>
+    <!--foreground service: notification actions-->
     <string name="foreground_action_battery_optimization">تحسين البطارية</string>
     <string name="foreground_action_notification_settings">الإعدادات</string>
 
+    <!--Actionbar menu-->
+
     <string name="menu_settings">الإعدادات</string>
+
+    <!--Google Cloud Messaging-->
 
     <string name="list_no_item_none">لا شيء</string>
     <string name="list_item_see_all">رؤية الكل</string>
-
-    <string name="open_app">فتح</string>
-
+    <!--gcm: network status-->
     <string name="service_status_disabled">معطل</string>
     <string name="service_status_enabled">مفعل</string>
     <string name="service_status_automatic">تلقائي</string>

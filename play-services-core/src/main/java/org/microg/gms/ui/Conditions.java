@@ -88,6 +88,7 @@ public class Conditions {
                 }
             })
             .firstActionPlurals(R.plurals.cond_perm_action, new View.OnClickListener() {
+
                 @Override
                 public void onClick(View v) {
                     if (v.getContext() instanceof Activity) {

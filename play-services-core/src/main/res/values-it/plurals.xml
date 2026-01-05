@@ -15,14 +15,21 @@
   -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--Google Cloud Messaging-->
+
     <plurals name="gcm_registered_apps_counter">
         <item quantity="one"><xliff:g example="1">%1$d</xliff:g> app registrata</item>
         <item quantity="other"><xliff:g example="123">%1$d</xliff:g> app registrate</item>
     </plurals>
+
+    <!--Conditions-->
+
     <plurals name="cond_perm_summary">
         <item quantity="one">Un permesso richiesto per il corretto funzionamento dei Servizi MicroG non è stato concesso.</item>
         <item quantity="other">Dei permessi richiesti per il corretto funzionamento dei Servizi MicroG non sono stati concessi.</item>
     </plurals>
+
     <plurals name="cond_perm_action">
         <item quantity="one">Richiesta permesso mancante</item>
         <item quantity="other">Richiesta permessi mancanti</item>

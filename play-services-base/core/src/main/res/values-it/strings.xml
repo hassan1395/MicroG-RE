@@ -4,19 +4,25 @@
   -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--Foreground service notification-->
+
     <string name="foreground_service_notification_title">Attivo in secondo piano</string>
     <string name="foreground_service_notification_text"><xliff:g example="Exposure Notification">%1$s</xliff:g> è in fase di esecuzione in secondo piano</string>
     <string name="foreground_service_notification_big_text">Escludi <xliff:g example="microG Services">%1$s</xliff:g> dalla lista delle app con ottimizzazione della batteria attiva o nascondi questa notifica dalle impostazioni dell\'app</string>
+    <!--foreground service: notification actions-->
     <string name="foreground_action_battery_optimization">Ottimizzazione batteria</string>
     <string name="foreground_action_notification_settings">Impostazioni</string>
 
+    <!--Actionbar menu-->
+
     <string name="menu_settings">Impostazioni</string>
+
+    <!--Google Cloud Messaging-->
 
     <string name="list_no_item_none">Nessuno</string>
     <string name="list_item_see_all">Vedi tutti</string>
-
-    <string name="open_app">Apri</string>
-
+    <!--gcm: network status-->
     <string name="service_status_disabled">Disattivata</string>
     <string name="service_status_enabled">Attiva</string>
     <string name="service_status_automatic">Automatica</string>

@@ -15,32 +15,50 @@
   -->
 
 <resources>
-    <string name="about_version_str">Версия: %1$s</string>
-    <string name="about_default_license">Все права защищены</string>
 
-    <string name="morphe_description">Morphe — это проект с открытым исходным кодом, предназначенный для модификации Android-приложений с помощью патчей</string>
-
-    <string name="prefcat_setup">Настройка</string>
-
-    <string name="self_check_title">Самопроверка</string>
-    <string name="self_check_desc">Проверка правильности настройки системы для работы с MicroG</string>
-
-    <string name="self_check_cat_permissions">Предоставленные разрешения</string>
-    <string name="self_check_name_permission">Разрешение на %1$s:</string>
-    <string name="self_check_resolution_permission">Коснитесь для предоставления разрешения. Отсутствие разрешения может привести к неправильной работе приложений</string>
-
-    <string name="about_root_summary">Итог</string>
-    <string name="about_root_libraries">Включённые библиотеки</string>
-
-    <!-- Updater strings-->
+    <!--Updater-->
 
     <string name="check_updates">Проверить обновления</string>
+    <!--updater: messages-->
     <string name="update_available">Доступна новая версия!</string>
     <string name="no_update_available">У Вас последняя версия</string>
     <string name="check_updates_error">Не удалось проверить обновления</string>
-
-    <string name="snackbar_button_download">Загрузить</string>
-
+    <!--updater: actions-->
+    <string name="download_button">Загрузить</string>
+    <!--updater: error-->
     <string name="error_connection">Ошибка подключения:</string>
     <string name="error_others">Ошибка:</string>
+
+    <!--Settings About-->
+
+    <string name="about_morphe_description">Morphe — это проект с открытым исходным кодом, предназначенный для модификации Android-приложений с помощью патчей</string>
+    <string name="about_version_str">Версия: %1$s</string>
+    <string name="about_name_version_str">%1$s %2$s</string>
+    <string name="about_default_license">Все права защищены</string>
+
+    <!--Self Check-->
+
+    <!--self-check: permission-->
+    <string name="self_check_cat_permissions">Разрешения</string>
+    <string name="self_check_name_permission">Разрешение на %1$s:</string>
+    <string name="self_check_resolution_permission">Коснитесь для предоставления. Отказ может привести к неправильной работе программ</string>
+
+    <!--Settings Preferences-->
+
+    <!--preferences: self-check-->
+    <string name="self_check_title">Самопроверка</string>
+    <string name="self_check_desc">Убедитесь, что устройство правильно настроено для использования MicroG</string>
+
+    <!--UI preview-->
+
+    <string name="lib_name">Инструменты UI MicroG</string>
+    <string name="lib_license">Лицензия Apache 2.0, команда microG</string>
+    <string name="about_root_title">MicroG UI Demo</string>
+    <string name="about_root_summary">Итог</string>
+    <string name="about_root_version">Версия v0.1.0</string>
+    <string name="about_root_libraries">Использованные библиотеки</string>
+    <string name="about_android_support_v4">Библиотека поддержки Android v4</string>
+    <string name="about_android_support_v7_appcompat">Библиотека поддержки Android v7 appcompat</string>
+    <string name="about_android_support_v7_preference">Библиотека поддержки Android v7 preference</string>
+    <string name="about_android_support_license">Лицензия Apache 2.0, Проект с открытым исходным кодом Android</string>
 </resources>

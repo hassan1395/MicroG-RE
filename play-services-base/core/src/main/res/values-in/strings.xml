@@ -4,19 +4,25 @@
   -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--Foreground service notification-->
+
     <string name="foreground_service_notification_title">Aktif di latar belakang</string>
     <string name="foreground_service_notification_text"><xliff:g example="Exposure Notification">%1$s</xliff:g> sedang berjalan di latar belakang</string>
     <string name="foreground_service_notification_big_text">Kecualikan <xliff:g example="microG Services">%1$s</xliff:g> dari optimisasi baterai atau ubah pengaturan notifikasi untuk menyembunyikan notifikasi ini</string>
+    <!--foreground service: notification actions-->
     <string name="foreground_action_battery_optimization">Optimasi baterai</string>
     <string name="foreground_action_notification_settings">Pengaturan</string>
 
+    <!--Actionbar menu-->
+
     <string name="menu_settings">Pengaturan</string>
+
+    <!--Google Cloud Messaging-->
 
     <string name="list_no_item_none">Tidak ada</string>
     <string name="list_item_see_all">Lihat semua</string>
-
-    <string name="open_app">Buka</string>
-
+    <!--gcm: network status-->
     <string name="service_status_disabled">Dinonaktifkan</string>
     <string name="service_status_enabled">Diaktifkan</string>
     <string name="service_status_automatic">Otomatis</string>

@@ -15,16 +15,23 @@
   -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--Google Cloud Messaging-->
+
     <plurals name="gcm_registered_apps_counter">
         <item quantity="one"><xliff:g example="1">%1$d</xliff:g> зарегистрированное приложение</item>
         <item quantity="other"><xliff:g example="123">%1$d</xliff:g> зарегистрированных приложений</item>
     </plurals>
+
+    <!--Conditions-->
+
     <plurals name="cond_perm_summary">
         <item quantity="one">Разрешение, необходимое для правильной работы Сервисов MicroG, не предоставлено.</item>
         <item quantity="few">Разрешения, необходимые для правильной работы Сервисов MicroG, не предоставлены.</item>
         <item quantity="many">Разрешения, необходимые для правильной работы Сервисов MicroG, не предоставлены.</item>
         <item quantity="other">Разрешения, необходимые для правильной работы Сервисов MicroG, не предоставлены.</item>
     </plurals>
+
     <plurals name="cond_perm_action">
         <item quantity="one">Запросить отсутствующее разрешение</item>
         <item quantity="few">Запросить отсутствующие разрешения</item>

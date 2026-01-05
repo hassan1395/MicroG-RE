@@ -15,39 +15,49 @@
   -->
 
 <resources>
+
+    <!--Updater-->
+
+    <string name="check_updates">تحقق من التحديثات</string>
+    <!--updater: messages-->
+    <string name="update_available">نسخة جديدة متاحة!</string>
+    <string name="no_update_available">أنت على أحدث إصدار</string>
+    <string name="check_updates_error">غير قادر على التحقق من التحديثات</string>
+    <!--updater: actions-->
+    <string name="download_button">تنزيل</string>
+    <!--updater: error-->
+    <string name="error_connection">خطأ في الاتصال:</string>
+    <string name="error_others">خطأ:</string>
+
+    <!--Settings About-->
+
+    <string name="about_morphe_description">Morphe هو مشروع مفتوح المصدر مصمم لتعديل تطبيقات Android من خلال التصحيحات</string>
     <string name="about_version_str">الإصدار: %1$s</string>
     <string name="about_default_license">جميع الحقوق محفوظة</string>
 
-    <string name="morphe_description">Morphe هو مشروع مفتوح المصدر مصمم لتعديل تطبيقات Android من خلال التصحيحات</string>
+    <!--Self Check-->
 
-    <string name="prefcat_setup">الإعداد</string>
-
-    <string name="self_check_title">الفحص الذاتي</string>
-    <string name="self_check_desc">تحقق مما إذا كان النظام مضبوطًا بشكل صحيح لاستخدام MicroG</string>
-
-    <string name="self_check_cat_permissions">الأذونات الممنوحة</string>
+    <!--self-check: permission-->
+    <string name="self_check_cat_permissions">الأذونات</string>
     <string name="self_check_name_permission">الإذن لـ %1$s:</string>
     <string name="self_check_resolution_permission">اضغط هنا لمنح الإذن. عدم منح الإذن يمكن أن يؤدي إلى تطبيقات لا تعمل بشكل صحيح</string>
 
+    <!--Settings Preferences-->
+
+    <!--preferences: self-check-->
+    <string name="self_check_title">الفحص الذاتي</string>
+    <string name="self_check_desc">تحقق من أن الجهاز تم تكوينه بشكل صحيح لاستخدام MicroG</string>
+
+    <!--UI preview-->
+
+    <string name="lib_name">أدوات واجهة مستخدم MicroG</string>
+    <string name="lib_license">رخصة Apache 2.0، فريق microG</string>
     <string name="about_root_title">عرض MicroG UI</string>
     <string name="about_root_summary">الملخص</string>
     <string name="about_root_version">الإصدار v0.1.0</string>
-    <string name="about_root_libraries">المكتبات المضمنة</string>
-
+    <string name="about_root_libraries">المكتبات المستخدمة</string>
     <string name="about_android_support_v4">مكتبة دعم v4</string>
     <string name="about_android_support_v7_appcompat">مكتبة دعم v7 appcompat</string>
     <string name="about_android_support_v7_preference">مكتبة دعم v7 preference</string>
     <string name="about_android_support_license">رخصة Apache 2.0، مشروع Android Open Source</string>
-
-    <!-- Updater strings-->
-
-    <string name="check_updates">تحقق من التحديثات</string>
-    <string name="update_available">نسخة جديدة متاحة!</string>
-    <string name="no_update_available">أنت على أحدث إصدار</string>
-    <string name="check_updates_error">غير قادر على التحقق من التحديثات</string>
-
-    <string name="snackbar_button_download">تنزيل</string>
-
-    <string name="error_connection">خطأ في الاتصال:</string>
-    <string name="error_others">خطأ:</string>
 </resources>

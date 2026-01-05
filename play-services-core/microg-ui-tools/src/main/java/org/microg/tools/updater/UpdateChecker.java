@@ -80,7 +80,7 @@ public class UpdateChecker {
         String appVersion = context.getString(R.string.github_tag_version);
 
         if (appVersion.compareTo(latestVersion) < 0) {
-            showSnackbarWithAction(view, context.getString(R.string.update_available), context.getString(R.string.snackbar_button_download), v -> openGitHubReleaseLink(context));
+            showSnackbarWithAction(view, context.getString(R.string.update_available), context.getString(R.string.download_button), v -> openGitHubReleaseLink(context));
         } else {
             showSnackbar(view, context.getString(R.string.no_update_available));
         }

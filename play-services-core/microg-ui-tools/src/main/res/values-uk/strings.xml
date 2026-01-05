@@ -16,39 +16,49 @@
   -->
 
 <resources>
-    <string name="morphe_description">Morphe — це проєкт з відкритим вихідним кодом, призначений для модифікації Android-додатків за допомогою патчів</string>
 
-    <string name="about_version_str">Версія: %1$s</string>
-    <string name="about_default_license">Усі права захищені</string>
-
-    <string name="prefcat_setup">Налаштування</string>
-
-    <string name="self_check_title">Самоперевірка</string>
-    <string name="self_check_desc">Перевірте, чи правильно налаштована система для використання MicroG</string>
-
-    <string name="self_check_cat_permissions">Надані дозволи</string>
-    <string name="self_check_name_permission">Дозвіл на %1$s:</string>
-    <string name="self_check_resolution_permission">Натисніть тут, щоб надати дозвіл. Ненадання дозволу може призвести до неправильної роботи додатків</string>
-
-    <string name="about_root_title">Демонстрація інтерфейсу MicroG</string>
-    <string name="about_root_summary">Короткий зміст</string>
-    <string name="about_root_version">Версія v0.1.0</string>
-    <string name="about_root_libraries">Включені бібліотеки</string>
-
-    <string name="about_android_support_v4">Бібліотека підтримки v4</string>
-    <string name="about_android_support_v7_appcompat">Бібліотека підтримки v7 appcompat</string>
-    <string name="about_android_support_v7_preference">Бібліотека підтримки v7 preference</string>
-    <string name="about_android_support_license">Ліцензія Apache 2.0, проєкт Android з відкритим кодом</string>
-
-    <!-- Updater strings-->
+    <!--Updater-->
 
     <string name="check_updates">Перевірити оновлення</string>
+    <!--updater: messages-->
     <string name="update_available">Доступна нова версія!</string>
-    <string name="no_update_available">Ви маєте останню версію</string>
-    <string name="check_updates_error">Не вдалося перевірити оновлення</string>
-
-    <string name="snackbar_button_download">Завантажити</string>
-
-    <string name="error_connection">Помилка з\'єднання:</string>
+    <string name="no_update_available">У вас встановлена остання версія</string>
+    <string name="check_updates_error">Помилка при перевірці оновлень</string>
+    <!--updater: actions-->
+    <string name="download_button">Завантажити</string>
+    <!--updater: error-->
+    <string name="error_connection">Помилка підключення:</string>
     <string name="error_others">Помилка:</string>
+
+    <!--Settings About-->
+
+    <string name="about_morphe_description">Morphe — це проект з відкритим вихідним кодом для модифікації додатків Android через патчі</string>
+    <string name="about_version_str">Версія: %1$s</string>
+    <string name="about_name_version_str">%1$s %2$s</string>
+    <string name="about_default_license">Усі права захищені</string>
+
+    <!--Self Check-->
+
+    <!--self-check: permission-->
+    <string name="self_check_cat_permissions">Дозволи</string>
+    <string name="self_check_name_permission">Дозвіл на %1$s:</string>
+    <string name="self_check_resolution_permission">Натисніть тут для надання дозволу. Відсутність дозволу може призвести до збоїв</string>
+
+    <!--Settings Preferences-->
+    <!--preferences: self-check-->
+    <string name="self_check_title">Самоперевірка</string>
+    <string name="self_check_desc">Перевірте, чи правильно налаштовано пристрій для використання MicroG</string>
+
+    <!--UI preview-->
+
+    <string name="lib_name">Інструменти MicroG UI</string>
+    <string name="lib_license">Ліцензія Apache 2.0, команда MicroG</string>
+    <string name="about_root_title">MicroG UI Demo</string>
+    <string name="about_root_summary">Резюме</string>
+    <string name="about_root_version">Версія v0.1.0</string>
+    <string name="about_root_libraries">Використані бібліотеки</string>
+    <string name="about_android_support_v4">v4 Support Library</string>
+    <string name="about_android_support_v7_appcompat">v7 appcompat Support Library</string>
+    <string name="about_android_support_v7_preference">v7 preference Support Library</string>
+    <string name="about_android_support_license">Ліцензія Apache 2.0, The Android Open Source Project</string>
 </resources>

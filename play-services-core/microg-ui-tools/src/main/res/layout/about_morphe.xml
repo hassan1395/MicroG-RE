@@ -22,7 +22,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="@string/morphe"
+        android:text="@string/about_morphe"
         android:textAppearance="?attr/textAppearanceTitleLargeEmphasized"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/morphe_logo"
@@ -34,13 +34,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="@string/morphe_description"
+        android:text="@string/about_morphe_description"
         android:textAppearance="?attr/textAppearanceBodyMedium"
         android:textColor="?android:textColorSecondary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/morphe_name"
         app:layout_constraintTop_toBottomOf="@id/morphe_name"
-        tools:text="@string/morphe_description" />
+        tools:text="@string/about_morphe_description" />
 
     <HorizontalScrollView
         android:id="@+id/morphe_buttons_scroll"
