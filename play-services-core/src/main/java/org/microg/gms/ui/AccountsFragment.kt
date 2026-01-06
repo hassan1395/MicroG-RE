@@ -13,6 +13,7 @@ import android.view.View
 import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory
 import androidx.core.net.toUri
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.fragment.findNavController
 import androidx.preference.Preference
 import androidx.preference.PreferenceCategory
 import androidx.preference.PreferenceFragmentCompat
@@ -80,9 +81,7 @@ class AccountsFragment : PreferenceFragmentCompat() {
             true
         }
         findPreference<Preference>("pref_privacy")?.setOnPreferenceClickListener {
-            startActivitySafely(
-                PrivacySettingsActivity::class.java, "Failed to launch privacy activity"
-            )
+            findNavController().navigate(requireContext(), R.id.privacyFragment)
             true
         }
         findPreference<Preference>("pref_manage_history")?.setOnPreferenceClickListener {
