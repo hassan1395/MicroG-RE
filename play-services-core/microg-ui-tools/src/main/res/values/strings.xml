@@ -16,22 +16,15 @@
 
 <resources>
 
-    <!-- UpdateChecker Tag Controller-->
-
-    <string name="github_tag_version" translatable="false">5.13</string>
-
     <!--Updater-->
 
-    <string name="check_updates">Check updates</string>
+    <string name="update_checker_button">Check updates</string>
+    <string name="update_checker_download_button">Download</string>
     <!--updater: messages-->
-    <string name="update_available">New version available!</string>
-    <string name="no_update_available">You are on latest version</string>
-    <string name="check_updates_error">Unable to check for updates</string>
-    <!--updater: actions-->
-    <string name="download_button">Download</string>
-    <!--updater: error-->
-    <string name="error_connection">Connection error:</string>
-    <string name="error_others">Error:</string>
+    <string name="update_checker_no_update">No update available</string>
+    <string name="update_checker_update_available">New update available: %s</string>
+    <string name="update_checker_no_internet">No internet connection</string>
+    <string name="update_checker_generic_error">Something went wrong… Please try again later</string>
 
     <!--Settings About-->
 

@@ -18,16 +18,13 @@
 
     <!--Updater-->
 
-    <string name="check_updates">Verifica aggiornamenti</string>
+    <string name="update_checker_button">Controlla aggiornamenti</string>
+    <string name="update_checker_download_button">Scarica</string>
     <!--updater: messages-->
-    <string name="update_available">Nuova versione disponibile!</string>
-    <string name="no_update_available">Hai l\'ultima versione</string>
-    <string name="check_updates_error">Impossibile controllare gli aggiornamenti</string>
-    <!--updater: actions-->
-    <string name="download_button">Scarica</string>
-    <!--updater: error-->
-    <string name="error_connection">Errore di connessione:</string>
-    <string name="error_others">Errore:</string>
+    <string name="update_checker_no_update">Nessun aggiornamento disponibile</string>
+    <string name="update_checker_update_available">Nuovo aggiornamento disponibile: %s</string>
+    <string name="update_checker_no_internet">Nessuna connessione internet</string>
+    <string name="update_checker_generic_error">Qualcosa è andato storto… Riprova più tardi</string>
 
     <!--Settings About-->
 

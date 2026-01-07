@@ -18,16 +18,13 @@
 
     <!--Updater-->
 
-    <string name="check_updates">Güncellemeleri kontrol et</string>
+    <string name="update_checker_button">Güncellemeleri kontrol et</string>
+    <string name="update_checker_download_button">İndir</string>
     <!--updater: messages-->
-    <string name="update_available">Yeni sürüm mevcut!</string>
-    <string name="no_update_available">En son sürümü kullanıyorsunuz</string>
-    <string name="check_updates_error">Güncellemeler kontrol edilemedi</string>
-    <!--updater: actions-->
-    <string name="download_button">İndir</string>
-    <!--updater: error-->
-    <string name="error_connection">Bağlantı hatası:</string>
-    <string name="error_others">Hata:</string>
+    <string name="update_checker_no_update">Güncelleme yok</string>
+    <string name="update_checker_update_available">Yeni güncelleme mevcut: %s</string>
+    <string name="update_checker_no_internet">İnternet bağlantısı yok</string>
+    <string name="update_checker_generic_error">Bir şeyler yanlış gitti… Lütfen daha sonra tekrar deneyin</string>
 
     <!--Settings About-->
 

@@ -18,16 +18,13 @@
 
     <!--Updater-->
 
-    <string name="check_updates">Kiểm tra cập nhật</string>
+    <string name="update_checker_button">Kiểm tra cập nhật</string>
+    <string name="update_checker_download_button">Tải xuống</string>
     <!--updater: messages-->
-    <string name="update_available">Có phiên bản mới!</string>
-    <string name="no_update_available">Bạn đang ở phiên bản mới nhất</string>
-    <string name="check_updates_error">Lỗi khi kiểm tra bản cập nhật</string>
-    <!--updater: actions-->
-    <string name="download_button">Tải xuống</string>
-    <!--updater: error-->
-    <string name="error_connection">Lỗi kết nối:</string>
-    <string name="error_others">Lỗi:</string>
+    <string name="update_checker_no_update">Không có bản cập nhật nào</string>
+    <string name="update_checker_update_available">Có bản cập nhật mới: %s</string>
+    <string name="update_checker_no_internet">Không có kết nối internet</string>
+    <string name="update_checker_generic_error">Đã xảy ra lỗi… Vui lòng thử lại sau</string>
 
     <!--Settings About-->
 

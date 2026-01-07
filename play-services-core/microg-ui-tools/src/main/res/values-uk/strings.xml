@@ -19,16 +19,13 @@
 
     <!--Updater-->
 
-    <string name="check_updates">Перевірити оновлення</string>
+    <string name="update_checker_button">Перевірити оновлення</string>
+    <string name="update_checker_download_button">Завантажити</string>
     <!--updater: messages-->
-    <string name="update_available">Доступна нова версія!</string>
-    <string name="no_update_available">У вас встановлена остання версія</string>
-    <string name="check_updates_error">Помилка при перевірці оновлень</string>
-    <!--updater: actions-->
-    <string name="download_button">Завантажити</string>
-    <!--updater: error-->
-    <string name="error_connection">Помилка підключення:</string>
-    <string name="error_others">Помилка:</string>
+    <string name="update_checker_no_update">Оновлень немає</string>
+    <string name="update_checker_update_available">Доступне нове оновлення: %s</string>
+    <string name="update_checker_no_internet">Немає підключення до інтернету</string>
+    <string name="update_checker_generic_error">Щось пішло не так… Будь ласка, спробуйте пізніше</string>
 
     <!--Settings About-->
 

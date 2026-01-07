@@ -18,16 +18,13 @@
 
     <!--Updater-->
 
-    <string name="check_updates">Periksa pembaruan</string>
+    <string name="update_checker_button">Periksa pembaruan</string>
+    <string name="update_checker_download_button">Unduh</string>
     <!--updater: messages-->
-    <string name="update_available">Versi baru tersedia!</string>
-    <string name="no_update_available">Anda sudah menggunakan versi terbaru</string>
-    <string name="check_updates_error">Tidak dapat memeriksa pembaruan</string>
-    <!--updater: actions-->
-    <string name="download_button">Unduh</string>
-    <!--updater: error-->
-    <string name="error_connection">Kesalahan koneksi:</string>
-    <string name="error_others">Kesalahan:</string>
+    <string name="update_checker_no_update">Tidak ada pembaruan tersedia</string>
+    <string name="update_checker_update_available">Pembaruan baru tersedia: %s</string>
+    <string name="update_checker_no_internet">Tidak ada koneksi internet</string>
+    <string name="update_checker_generic_error">Terjadi kesalahan… Silakan coba lagi nanti</string>
 
     <!--Settings About-->
 

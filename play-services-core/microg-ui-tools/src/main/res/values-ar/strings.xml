@@ -18,16 +18,13 @@
 
     <!--Updater-->
 
-    <string name="check_updates">تحقق من التحديثات</string>
+    <string name="update_checker_button">بحث عن تحديثات</string>
+    <string name="update_checker_download_button">تنزيل</string>
     <!--updater: messages-->
-    <string name="update_available">نسخة جديدة متاحة!</string>
-    <string name="no_update_available">أنت على أحدث إصدار</string>
-    <string name="check_updates_error">غير قادر على التحقق من التحديثات</string>
-    <!--updater: actions-->
-    <string name="download_button">تنزيل</string>
-    <!--updater: error-->
-    <string name="error_connection">خطأ في الاتصال:</string>
-    <string name="error_others">خطأ:</string>
+    <string name="update_checker_no_update">لا توجد تحديثات متاحة</string>
+    <string name="update_checker_update_available">تحديث جديد متاح: %s</string>
+    <string name="update_checker_no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="update_checker_generic_error">حدث خطأ ما… يرجى المحاولة مرة أخرى لاحقًا</string>
 
     <!--Settings About-->
 

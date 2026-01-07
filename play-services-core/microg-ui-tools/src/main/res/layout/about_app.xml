@@ -1,12 +1,12 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/app_info"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_info"
     android:layout_width="match_parent"
-    android:clickable="true"
-    android:focusable="true"
     android:layout_height="wrap_content"
     android:background="@drawable/about_background_top"
+    android:clickable="true"
+    android:focusable="true"
     android:padding="20dp">
 
     <com.google.android.material.imageview.ShapeableImageView
@@ -56,7 +56,7 @@
         style="@style/Widget.Material3Expressive.Button.IconButton.Tonal"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/check_updates"
+        android:contentDescription="@string/update_checker_button"
         app:backgroundTint="?attr/colorPrimaryContainer"
         app:icon="@drawable/ic_update"
         app:iconGravity="textStart"
