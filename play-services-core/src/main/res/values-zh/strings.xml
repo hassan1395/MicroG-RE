@@ -8,7 +8,6 @@
     <!--App Names-->
 
     <string name="gms_settings_name">MicroG 设置</string>
-    <string name="gms_settings_summary">设置 MicroG 服务</string>
 
     <!--Authentication-->
 
@@ -134,17 +133,10 @@
     <string name="self_check_name_oem_restriction">后台进程限制</string>
     <string name="self_check_resolution_oem_restriction">您的系统可能会限制后台进程。点击此处访问 Don’t Kill My App! 网站，了解如何取消这些限制</string>
     <!--self check: signature-->
-    <string name="self_check_name_fake_sig_perm">系统支持签名伪造</string>
-    <string name="self_check_resolution_fake_sig_perm">您的 ROM 不支持原生的签名伪造。您仍可使用 Xposed 或其他方式。请参阅文档了解支持的 ROM 及不受支持时的处理方法</string>
     <string name="self_check_name_system_spoofs">系统已伪造签名</string>
-    <string name="self_check_name_perm_granted">系统授予签名伪造权限</string>
-    <string name="self_check_name_correct_sig"><xliff:g example="YouTube">%1$s</xliff:g> 签名正确</string>
-    <string name="self_check_resolution_correct_sig">安装的 <xliff:g example="YouTube">%1$s</xliff:g> 可能不兼容或签名伪造未对其激活。请参阅文档了解兼容的应用和 ROM</string>
-    <string name="self_check_resolution_perm_granted">ROM 支持签名伪造，但需进一步操作激活。请参阅文档了解所需步骤</string>
     <string name="self_check_resolution_system_spoofs">请查阅文档了解可能需要哪些步骤</string>
     <!--self check: package-->
     <string name="self_check_pkg_gms">Play 服务</string>
-    <string name="self_check_pkg_vending">Play 商店</string>
     <string name="self_check_name_app_installed">已安装 <xliff:g example="YouTube">%1$s</xliff:g></string>
     <string name="self_check_resolution_app_installed">请安装应用 <xliff:g example="YouTube">%1$s</xliff:g> 或兼容应用。参阅文档了解哪些应用受支持</string>
 
@@ -212,7 +204,6 @@
     <string name="pref_about_title">关于 MicroG</string>
     <string name="pref_github">GitHub</string>
     <string name="pref_github_summary">源码库</string>
-    <string name="pref_developer">开发者</string>
 
     <!--Permissions-->
 

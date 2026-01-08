@@ -48,14 +48,7 @@
 
     <!--UI preview-->
 
-    <string name="lib_name">MicroG UI 工具库</string>
-    <string name="lib_license">Apache License 2.0，microG 团队</string>
     <string name="about_root_title">MicroG UI 演示</string>
-    <string name="about_root_summary">摘要说明</string>
     <string name="about_root_version">版本 v0.1.0</string>
     <string name="about_root_libraries">使用的库</string>
-    <string name="about_android_support_v4">v4 支持库</string>
-    <string name="about_android_support_v7_appcompat">v7 appcompat 支持库</string>
-    <string name="about_android_support_v7_preference">v7 preference 支持库</string>
-    <string name="about_android_support_license">Apache 许可证 2.0, Android 开源项目</string>
 </resources>

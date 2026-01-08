@@ -7,7 +7,6 @@
     <!--App Names-->
 
     <string name="gms_settings_name">Ustawienia MicroG</string>
-    <string name="gms_settings_summary">Ustaw usługi MicroG</string>
 
     <!--Authentication-->
 
@@ -127,17 +126,10 @@ Może to potrwać kilka minut"</string>
     <string name="self_check_name_oem_restriction">Ograniczenia procesów w tle</string>
     <string name="self_check_resolution_oem_restriction">Twój system może ograniczać procesy w tle. Stuknij tutaj, aby otworzyć stronę Don’t Kill My App! i dowiedzieć się, jak wyłączyć te ograniczenia</string>
     <!--self check: signature-->
-    <string name="self_check_name_fake_sig_perm">System posiada wsparcie dla podszywania się pod podpis</string>
-    <string name="self_check_resolution_fake_sig_perm">Twój ROM nie posiada natywnego wsparcia dla podszywania się pod podpis. Nadal możesz używać Xposed lub innych narzędzi, aby oszukać podpis. Sprawdź dokumentację, aby dowiedzieć się, które ROM-y wspierają podszywanie się pod podpis i jak używać MicroG na ROM-ach, które go nie wspierają</string>
     <string name="self_check_name_system_spoofs">System oszukuje podpis</string>
-    <string name="self_check_name_perm_granted">System przyznaje uprawnienie do podszywania się pod podpis</string>
-    <string name="self_check_name_correct_sig"><xliff:g example="YouTube">%1$s</xliff:g> posiada prawidłowy podpis</string>
-    <string name="self_check_resolution_correct_sig">Zainstalowana aplikacja <xliff:g example="YouTube">%1$s</xliff:g> nie jest kompatybilna lub podszywanie się pod podpis nie jest dla niej aktywne. Przejrzyj w dokumentacji, które aplikacje i pamięci ROM są kompatybilne</string>
-    <string name="self_check_resolution_perm_granted">To silny wskaźnik, że ROM wspiera podszywanie się pod podpis, ale wymaga dalszych działań w celu aktywacji. Przejrzyj dokumentację i sprawdź dalsze instrukcje</string>
     <string name="self_check_resolution_system_spoofs">Przejrzyj dokumentację i sprawdź dalsze instrukcje</string>
     <!--self check: package-->
     <string name="self_check_pkg_gms">Usługi Google Play</string>
-    <string name="self_check_pkg_vending">Sklep Play</string>
     <string name="self_check_name_app_installed"><xliff:g example="YouTube">%1$s</xliff:g> zainstalowany</string>
     <string name="self_check_resolution_app_installed">Zainstaluj aplikację <xliff:g example="YouTube">%1$s</xliff:g> lub kompatybilną. Sprawdź w dokumentacji, które aplikacje są kompatybilne</string>
 
@@ -205,7 +197,6 @@ Może to potrwać kilka minut"</string>
     <string name="pref_about_title">Informacje o MicroG</string>
     <string name="pref_github">GitHub</string>
     <string name="pref_github_summary">Repozytorium kodu źródłowego</string>
-    <string name="pref_developer">Deweloper</string>
 
     <!--Permissions-->
 

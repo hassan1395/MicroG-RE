@@ -48,14 +48,7 @@
 
     <!--UI preview-->
 
-    <string name="lib_name">Công cụ giao diện MicroG</string>
-    <string name="lib_license">Apache License 2.0, đội ngũ MicroG</string>
     <string name="about_root_title">MicroG UI Demo</string>
-    <string name="about_root_summary">Tóm tắt</string>
     <string name="about_root_version">Phiên bản v0.1.0</string>
     <string name="about_root_libraries">Thư viện đã sử dụng</string>
-    <string name="about_android_support_v4">v4 Support Library</string>
-    <string name="about_android_support_v7_appcompat">v7 appcompat Support Library</string>
-    <string name="about_android_support_v7_preference">v7 preference Support Library</string>
-    <string name="about_android_support_license">Apache License 2.0, Dự án mã nguồn mở Android</string>
 </resources>

@@ -8,7 +8,6 @@
     <!--App Names-->
 
     <string name="gms_settings_name">Налаштування MicroG</string>
-    <string name="gms_settings_summary">Налаштування сервісів MicroG</string>
 
     <!--Authentication-->
 
@@ -134,17 +133,10 @@
     <string name="self_check_name_oem_restriction">Обмеження фонових процесів</string>
     <string name="self_check_resolution_oem_restriction">Ваша система може обмежувати фонові процеси. Натисніть тут, щоб відкрити сайт Don’t Kill My App! і дізнатися, як вимкнути ці обмеження</string>
     <!--self check: signature-->
-    <string name="self_check_name_fake_sig_perm">Система має підтримку підміни підписів</string>
-    <string name="self_check_resolution_fake_sig_perm">Ваша прошивка не підтримує підміну підписів на рівні системи. Ви можете використовувати Xposed або аналоги. Перевірте документацію, які ROM підтримують цю функцію</string>
     <string name="self_check_name_system_spoofs">Система підміняє підпис</string>
-    <string name="self_check_name_perm_granted">Система надає дозвіл на підміну підпису</string>
-    <string name="self_check_name_correct_sig"><xliff:g example="YouTube">%1$s</xliff:g> має правильний підпис</string>
-    <string name="self_check_resolution_correct_sig">Встановлений додаток або несумісний, або підміну підпису для нього не активовано. Будь ласка, перевірте документацію</string>
-    <string name="self_check_resolution_perm_granted">Це вказує на підтримку підміни підпису, але потребує активації. Будь ласка, перевірте документацію</string>
     <string name="self_check_resolution_system_spoofs">Будь ласка, перевірте документацію щодо необхідних кроків</string>
     <!--self check: package-->
     <string name="self_check_pkg_gms">Play Сервіси</string>
-    <string name="self_check_pkg_vending">Play Маркет</string>
     <string name="self_check_name_app_installed"><xliff:g example="YouTube">%1$s</xliff:g> встановлено</string>
     <string name="self_check_resolution_app_installed">Встановіть додаток <xliff:g example="YouTube">%1$s</xliff:g> або сумісний. Будь ласка, перевірте список сумісних додатків у документації</string>
 
@@ -212,7 +204,6 @@
     <string name="pref_about_title">Про MicroG</string>
     <string name="pref_github">GitHub</string>
     <string name="pref_github_summary">Репозиторій вихідного коду</string>
-    <string name="pref_developer">Розробник</string>
 
     <!--Permissions-->
 

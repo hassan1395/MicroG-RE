@@ -8,7 +8,6 @@
     <!--App Names-->
 
     <string name="gms_settings_name">MicroG Ayarları</string>
-    <string name="gms_settings_summary">MicroG hizmetlerini yapılandır</string>
 
     <!--Authentication-->
 
@@ -134,17 +133,10 @@ Bu işlem birkaç dakika sürebilir."</string>
     <string name="self_check_name_oem_restriction">Arka plan işlem kısıtlamaları</string>
     <string name="self_check_resolution_oem_restriction">Sisteminiz arka plan işlemlerini kısıtlıyor olabilir. Don’t Kill My App! sitesini açmak ve bu kısıtlamaları nasıl kapatacağınızı öğrenmek için buraya dokunun</string>
     <!--self check: signature-->
-    <string name="self_check_name_fake_sig_perm">Sistem imza sahteciliği desteğine sahip</string>
-    <string name="self_check_resolution_fake_sig_perm">ROM\'unuzun imza sahteciliği için doğal desteği yok. Yine de Xposed veya diğer sistemleri kullanabilirsiniz. Hangi ROM\'ların desteklediğini öğrenmek için belgeleri kontrol edin</string>
     <string name="self_check_name_system_spoofs">Sistem imza sahteciliği yapıyor</string>
-    <string name="self_check_name_perm_granted">Sistem imza sahteciliği izni veriyor</string>
-    <string name="self_check_name_correct_sig"><xliff:g example="YouTube">%1$s</xliff:g> doğru imza</string>
-    <string name="self_check_resolution_correct_sig">Yüklenen <xliff:g example="YouTube">%1$s</xliff:g> uyumlu olmayabilir veya imza sahteciliği onun için aktif değil. Lütfen belgeleri kontrol edin</string>
-    <string name="self_check_resolution_perm_granted">Bu, ROM\'un desteği olduğunu gösterir ancak etkinleştirmek için ek adımlar gerekebilir. Lütfen belgeleri kontrol edin</string>
     <string name="self_check_resolution_system_spoofs">Gerekli olabilecek adımlar için belgeleri kontrol edin</string>
     <!--self check: package-->
     <string name="self_check_pkg_gms">Play Hizmetleri</string>
-    <string name="self_check_pkg_vending">Play Store</string>
     <string name="self_check_name_app_installed"><xliff:g example="YouTube">%1$s</xliff:g> yüklü</string>
     <string name="self_check_resolution_app_installed"><xliff:g example="YouTube">%1$s</xliff:g> uygulamasını yükleyin. Hangi uygulamaların uyumlu olduğunu öğrenmek için belgeleri kontrol edin</string>
 
@@ -212,7 +204,6 @@ Bu işlem birkaç dakika sürebilir."</string>
     <string name="pref_about_title">MicroG Hakkında</string>
     <string name="pref_github">GitHub</string>
     <string name="pref_github_summary">Kaynak kod deposu</string>
-    <string name="pref_developer">Geliştirici</string>
 
     <!--Permissions-->
 

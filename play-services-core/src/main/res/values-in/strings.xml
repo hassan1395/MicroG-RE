@@ -8,7 +8,6 @@
     <!--App Names-->
 
     <string name="gms_settings_name">Pengaturan MicroG</string>
-    <string name="gms_settings_summary">Atur layanan MicroG</string>
 
     <!--Authentication-->
 
@@ -134,17 +133,10 @@ Ini mungkin memerlukan beberapa menit"</string>
     <string name="self_check_name_oem_restriction">Batasan proses latar belakang</string>
     <string name="self_check_resolution_oem_restriction">Sistem Anda mungkin membatasi proses latar belakang. Ketuk di sini para membuka situs Don’t Kill My App! dan pelajari cara menonaktifkan batasan ini</string>
     <!--self check: signature-->
-    <string name="self_check_name_fake_sig_perm">Sistem memiliki dukungan pemalsuan tanda tangan</string>
-    <string name="self_check_resolution_fake_sig_perm">ROM Anda tidak memiliki dukungan asli untuk pemalsuan tanda tangan. Anda masih dapat menggunakan Xposed atau sistem lain untuk memalsukan tanda tangan. Silakan periksa dokumentasi tentang ROM mana yang mendukung pemalsuan tanda tangan dan cara menggunakan MicroG pada ROM yang tidak mendukung</string>
     <string name="self_check_name_system_spoofs">Sistem memalsukan tanda tangan</string>
-    <string name="self_check_name_perm_granted">Sistem memberikan izin pemalsuan tanda tangan</string>
-    <string name="self_check_name_correct_sig"><xliff:g example="YouTube">%1$s</xliff:g> tanda tangan yang benar</string>
-    <string name="self_check_resolution_correct_sig">Entah <xliff:g example="YouTube">%1$s</xliff:g> yang terinstal tidak kompatibel atau pemalsuan tanda tangan tidak aktif untuknya. Silakan periksa dokumentasi tentang aplikasi dan ROM mana yang kompatibel</string>
-    <string name="self_check_resolution_perm_granted">Ini adalah indikasi kuat bahwa ROM mendukung pemalsuan tanda tangan, tetapi memerlukan tindakan lebih lanjut untuk mengaktifkannya. Silakan periksa dokumentasi tentang langkah-langkah yang mungkin diperlukan</string>
     <string name="self_check_resolution_system_spoofs">Silakan periksa dokumentasi tentang langkah-langkah yang mungkin diperlukan</string>
     <!--self check: package-->
     <string name="self_check_pkg_gms">Layanan Play</string>
-    <string name="self_check_pkg_vending">Play Store</string>
     <string name="self_check_name_app_installed"><xliff:g example="YouTube">%1$s</xliff:g> terinstal</string>
     <string name="self_check_resolution_app_installed">Instal aplikasi <xliff:g example="YouTube">%1$s</xliff:g> atau yang kompatibel. Silakan periksa dokumentasi tentang aplikasi mana yang kompatibel</string>
 
@@ -212,7 +204,6 @@ Ini mungkin memerlukan beberapa menit"</string>
     <string name="pref_about_title">Tentang MicroG</string>
     <string name="pref_github">GitHub</string>
     <string name="pref_github_summary">Repositori kode sumber</string>
-    <string name="pref_developer">Pengembang</string>
 
     <!--Permissions-->
 

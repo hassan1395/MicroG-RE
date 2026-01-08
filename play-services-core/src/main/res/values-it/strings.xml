@@ -8,7 +8,6 @@
     <!--App Names-->
 
     <string name="gms_settings_name">Impostazioni di MicroG</string>
-    <string name="gms_settings_summary">Imposta i servizi di MicroG</string>
 
     <!--Authentication-->
 
@@ -134,17 +133,10 @@ Questo potrebbe richiedere qualche minuto"</string>
     <string name="self_check_name_oem_restriction">Restrizioni processi in background</string>
     <string name="self_check_resolution_oem_restriction">Il sistema potrebbe limitare i processi in background. Tocca qui per aprire il sito Don’t Kill My App! e imparare come disabilitare queste restrizioni</string>
     <!--self check: signature-->
-    <string name="self_check_name_fake_sig_perm">Il sistema supporta la falsificazione della firma</string>
-    <string name="self_check_resolution_fake_sig_perm">La tua ROM non possiede il supporto nativo alla falsificazione della firma. Puoi ancora utilizzare Xposed o un altro sistema per ottenere questa possibilità. Si prega di fare riferimento alla documentazione sulle ROM che supportano la falsificazione della firma e all\'utilizzo di MicroG su ROM che non forniscono tale supporto</string>
     <string name="self_check_name_system_spoofs">Il sistema falsifica la firma</string>
-    <string name="self_check_name_perm_granted">Il sistema ha il permesso per falsificare la firma</string>
-    <string name="self_check_name_correct_sig"><xliff:g example="YouTube">%1$s</xliff:g> è correttamente firmata</string>
-    <string name="self_check_resolution_correct_sig">L\'App <xliff:g example="YouTube">%1$s</xliff:g> installata non è compatibile oppure la sua firma non è stata falsificata. Si prega di fare riferimento alla documentazione sulle applicazioni e le ROM compatibili</string>
-    <string name="self_check_resolution_perm_granted">Questo è un forte indicatore che la ROM supporta la falsificazione della firma, ma che richiede ulteriori azioni per poterne eseguire l\'attivazione. Si prega di fare riferimento alla documentazione sui passaggi che potrebbero essere richiesti</string>
     <string name="self_check_resolution_system_spoofs">Si prega di fare riferimento alla documentazione sui passaggi che potrebbero essere richiesti</string>
     <!--self check: package-->
     <string name="self_check_pkg_gms">Play Services</string>
-    <string name="self_check_pkg_vending">Play Store</string>
     <string name="self_check_name_app_installed"><xliff:g example="YouTube">%1$s</xliff:g> installata</string>
     <string name="self_check_resolution_app_installed">Installa l\'applicazione <xliff:g example="YouTube">%1$s</xliff:g> o una versione compatibile. Si prega di verificare la documentazione sulle app compatibili</string>
 
@@ -212,7 +204,6 @@ Questo potrebbe richiedere qualche minuto"</string>
     <string name="pref_about_title">Informazioni su MicroG</string>
     <string name="pref_github">GitHub</string>
     <string name="pref_github_summary">Repository Codice Sorgente</string>
-    <string name="pref_developer">Sviluppatore</string>
 
     <!--Permissions-->
 

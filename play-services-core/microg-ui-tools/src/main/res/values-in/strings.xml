@@ -48,14 +48,7 @@
 
     <!--UI preview-->
 
-    <string name="lib_name">MicroG UI Tools</string>
-    <string name="lib_license">Apache License 2.0, Tim microG</string>
     <string name="about_root_title">Demo UI MicroG</string>
-    <string name="about_root_summary">Ringkasan</string>
     <string name="about_root_version">Versi v0.1.0</string>
     <string name="about_root_libraries">Library yang digunakan</string>
-    <string name="about_android_support_v4">Library Dukungan v4</string>
-    <string name="about_android_support_v7_appcompat">Library Dukungan appcompat v7</string>
-    <string name="about_android_support_v7_preference">Library Dukungan preferensi v7</string>
-    <string name="about_android_support_license">Lisensi Apache 2.0, Proyek Sumber Terbuka Android</string>
 </resources>

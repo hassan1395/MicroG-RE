@@ -8,7 +8,6 @@
     <!--App Names-->
 
     <string name="gms_settings_name">إعدادات MicroG</string>
-    <string name="gms_settings_summary">إعداد خدمات MicroG</string>
 
     <!--Authentication-->
 
@@ -134,17 +133,10 @@
     <string name="self_check_name_oem_restriction">قيود عملية الخلفية</string>
     <string name="self_check_resolution_oem_restriction">قد يحد نظامك من عمليات الخلفية. اضغط هنا لفتح موقع Don’t Kill My App! وتعرف على كيفية تعطيل هذه القيود</string>
     <!--self check: signature-->
-    <string name="self_check_name_fake_sig_perm">النظام يدعم تزييف التوقيع</string>
-    <string name="self_check_resolution_fake_sig_perm">ROM الخاص بك لا يدعم تزييف التوقيع. يمكنك استخدام Xposed أو أنظمة أخرى لتزييف التوقيع. يرجى التحقق من الوثائق لمعرفة أي ROMs تدعم تزييف التوقيع وكيفية استخدام MicroG على ROMs التي لا تدعم ذلك</string>
     <string name="self_check_name_system_spoofs">النظام يقوم بتزييف التوقيع</string>
-    <string name="self_check_name_perm_granted">النظام يمنح إذن تزييف التوقيع</string>
-    <string name="self_check_name_correct_sig"><xliff:g example="YouTube">%1$s</xliff:g> التوقيع الصحيح</string>
-    <string name="self_check_resolution_correct_sig">إما أن <xliff:g example="YouTube">%1$s</xliff:g> المثبتة غير متوافقة أو أن تزييف التوقيع غير نشط له. يرجى التحقق من الوثائق لمعرفة التطبيقات وROMs المتوافقة</string>
-    <string name="self_check_resolution_perm_granted">هذا مؤشر قوي على أن ROM يدعم تزييف التوقيع، ولكن يتطلب المزيد من الإجراءات لتفعيله. يرجى التحقق من الوثائق لمعرفة الخطوات المطلوبة</string>
     <string name="self_check_resolution_system_spoofs">يرجى التحقق من الوثائق لمعرفة الخطوات المطلوبة</string>
     <!--self check: package-->
     <string name="self_check_pkg_gms">خدمات Play</string>
-    <string name="self_check_pkg_vending">متجر Play</string>
     <string name="self_check_name_app_installed"><xliff:g example="YouTube">%1$s</xliff:g> مثبت</string>
     <string name="self_check_resolution_app_installed">قم بتثبيت التطبيق <xliff:g example="YouTube">%1$s</xliff:g> أو واحد متوافق. يرجى التحقق من الوثائق لمعرفة التطبيقات المتوافقة</string>
 
@@ -212,7 +204,6 @@
     <string name="pref_about_title">حول MicroG</string>
     <string name="pref_github">GitHub</string>
     <string name="pref_github_summary">مستودع الشيفرة المصدرية</string>
-    <string name="pref_developer">المطور</string>
 
     <!--Permissions-->
 

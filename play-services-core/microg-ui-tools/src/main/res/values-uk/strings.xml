@@ -48,14 +48,7 @@
 
     <!--UI preview-->
 
-    <string name="lib_name">Інструменти MicroG UI</string>
-    <string name="lib_license">Ліцензія Apache 2.0, команда MicroG</string>
     <string name="about_root_title">MicroG UI Demo</string>
-    <string name="about_root_summary">Резюме</string>
     <string name="about_root_version">Версія v0.1.0</string>
     <string name="about_root_libraries">Використані бібліотеки</string>
-    <string name="about_android_support_v4">v4 Support Library</string>
-    <string name="about_android_support_v7_appcompat">v7 appcompat Support Library</string>
-    <string name="about_android_support_v7_preference">v7 preference Support Library</string>
-    <string name="about_android_support_license">Ліцензія Apache 2.0, The Android Open Source Project</string>
 </resources>

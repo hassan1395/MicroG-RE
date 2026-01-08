@@ -48,14 +48,7 @@
 
     <!--UI preview-->
 
-    <string name="lib_name">MicroG UI Araçları</string>
-    <string name="lib_license">Apache Lisansı 2.0, microG Ekibi</string>
     <string name="about_root_title">MicroG UI Demo</string>
-    <string name="about_root_summary">Özet</string>
     <string name="about_root_version">Sürüm v0.1.0</string>
     <string name="about_root_libraries">Kullanılan kütüphaneler</string>
-    <string name="about_android_support_v4">v4 Destek Kütüphanesi</string>
-    <string name="about_android_support_v7_appcompat">v7 appcompat Destek Kütüphanesi</string>
-    <string name="about_android_support_v7_preference">v7 preference Destek Kütüphanesi</string>
-    <string name="about_android_support_license">Apache Lisansı 2.0, The Android Open Source Project</string>
 </resources>

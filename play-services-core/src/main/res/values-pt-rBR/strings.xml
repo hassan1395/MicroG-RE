@@ -8,7 +8,6 @@
     <!--App Names-->
 
     <string name="gms_settings_name">Configurações do MicroG</string>
-    <string name="gms_settings_summary">Configurar os serviços MicroG</string>
 
     <!--Authentication-->
 
@@ -134,17 +133,10 @@ Isso pode levar alguns minutos. Por favor, seja paciente."</string>
     <string name="self_check_name_oem_restriction">Restrições de processos em segundo plano</string>
     <string name="self_check_resolution_oem_restriction">Seu sistema pode restringir processos em segundo plano. Toque aqui para abrir o site Don’t Kill My App! e aprender como desativar estas restrições</string>
     <!--self check: signature-->
-    <string name="self_check_name_fake_sig_perm">Sistema tem suporte a falsificação de assinatura</string>
-    <string name="self_check_resolution_fake_sig_perm">Sua ROM não possui suporte nativo para falsificação de assinatura. Você ainda pode usar o Xposed ou outros sistemas para falsificar assinaturas. Verifique a documentação sobre quais ROMs suportam isso e como usar o MicroG nelas</string>
     <string name="self_check_name_system_spoofs">Assinatura simulada pelo sistema</string>
-    <string name="self_check_name_perm_granted">Sistema concede a permissão para falsificar assinatura</string>
-    <string name="self_check_name_correct_sig">Assinatura correta do <xliff:g example="YouTube">%1$s</xliff:g></string>
-    <string name="self_check_resolution_correct_sig">Ou o <xliff:g example="YouTube">%1$s</xliff:g> instalado não é compatível ou a falsificação de assinatura não está ativa para ele. Verifique a documentação sobre quais aplicativos e ROMs são compatíveis</string>
-    <string name="self_check_resolution_perm_granted">Este é um forte indicador de que a ROM suporta falsificação de assinatura, mas requer ação adicional para ativá-la. Verifique a documentação sobre quais etapas podem ser necessárias</string>
     <string name="self_check_resolution_system_spoofs">Verifique a documentação sobre quais etapas podem ser necessárias</string>
     <!--self check: package-->
     <string name="self_check_pkg_gms">Play Services</string>
-    <string name="self_check_pkg_vending">Play Store</string>
     <string name="self_check_name_app_installed"><xliff:g example="YouTube">%1$s</xliff:g> instalado</string>
     <string name="self_check_resolution_app_installed">Instale o aplicativo <xliff:g example="YouTube">%1$s</xliff:g> ou um aplicativo compatível. Verifique a documentação sobre quais aplicativos são compatíveis</string>
 
@@ -212,7 +204,6 @@ Isso pode levar alguns minutos. Por favor, seja paciente."</string>
     <string name="pref_about_title">Sobre o MicroG</string>
     <string name="pref_github">GitHub</string>
     <string name="pref_github_summary">Repositório com o código-fonte</string>
-    <string name="pref_developer">Desenvolvedor</string>
 
     <!--Permissions-->
 

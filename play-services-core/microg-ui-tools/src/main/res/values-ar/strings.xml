@@ -47,14 +47,7 @@
 
     <!--UI preview-->
 
-    <string name="lib_name">أدوات واجهة مستخدم MicroG</string>
-    <string name="lib_license">رخصة Apache 2.0، فريق microG</string>
     <string name="about_root_title">عرض MicroG UI</string>
-    <string name="about_root_summary">الملخص</string>
     <string name="about_root_version">الإصدار v0.1.0</string>
     <string name="about_root_libraries">المكتبات المستخدمة</string>
-    <string name="about_android_support_v4">مكتبة دعم v4</string>
-    <string name="about_android_support_v7_appcompat">مكتبة دعم v7 appcompat</string>
-    <string name="about_android_support_v7_preference">مكتبة دعم v7 preference</string>
-    <string name="about_android_support_license">رخصة Apache 2.0، مشروع Android Open Source</string>
 </resources>

@@ -8,7 +8,6 @@
     <!--App Names-->
 
     <string name="gms_settings_name">Cài đặt MicroG</string>
-    <string name="gms_settings_summary">Thiết lập dịch vụ MicroG</string>
 
     <!--Authentication-->
 
@@ -134,17 +133,10 @@ Quá trình này có thể tốn một vài phút."</string>
     <string name="self_check_name_oem_restriction">Hạn chế quy trình chạy nền</string>
     <string name="self_check_resolution_oem_restriction">Hệ thống của bạn có thể hạn chế quy trình chạy nền. Nhấn vào đây để mở trang Don’t Kill My App! và tìm hiểu cách tắt các hạn chế này.</string>
     <!--self check: signature-->
-    <string name="self_check_name_fake_sig_perm">Hệ thống hỗ trợ giả mạo chữ ký</string>
-    <string name="self_check_resolution_fake_sig_perm">Bản ROM của bạn không hỗ trợ giả mạo chữ ký. Bạn có thể sử dụng Xposed hoặc hệ thống khác để giả mạo. Hãy xem tài liệu về các bản ROM hỗ trợ giả mạo chữ ký.</string>
     <string name="self_check_name_system_spoofs">Hệ thống thực hiện giả mạo chữ ký</string>
-    <string name="self_check_name_perm_granted">Hệ thống cấp quyền giả mạo chữ ký</string>
-    <string name="self_check_name_correct_sig">Đúng chữ ký cho <xliff:g example="YouTube">%1$s</xliff:g></string>
-    <string name="self_check_resolution_correct_sig">Ứng dụng <xliff:g example="YouTube">%1$s</xliff:g> đã cài đặt không tương thích hoặc chưa kích hoạt giả mạo chữ ký. Vui lòng xem tài liệu hướng dẫn.</string>
-    <string name="self_check_resolution_perm_granted">Bản ROM của bạn có hỗ trợ giả mạo cho MicroG, nhưng yêu cầu thực hiện thêm một vài bước để kích hoạt.</string>
     <string name="self_check_resolution_system_spoofs">Vui lòng đọc tài liệu để biết các bước cần thiết.</string>
     <!--self check: package-->
     <string name="self_check_pkg_gms">Dịch vụ Google Play</string>
-    <string name="self_check_pkg_vending">Cửa hàng Google Play</string>
     <string name="self_check_name_app_installed"><xliff:g example="YouTube">%1$s</xliff:g> đã cài đặt</string>
     <string name="self_check_resolution_app_installed">Cài đặt ứng dụng <xliff:g example="YouTube">%1$s</xliff:g> hoặc một ứng dụng tương thích khác. Đọc tài liệu để biết thêm chi tiết.</string>
 
@@ -212,7 +204,6 @@ Quá trình này có thể tốn một vài phút."</string>
     <string name="pref_about_title">Giới thiệu MicroG</string>
     <string name="pref_github">GitHub</string>
     <string name="pref_github_summary">Nơi lưu trữ mã nguồn</string>
-    <string name="pref_developer">Nhà phát triển</string>
 
     <!--Permissions-->
 
