@@ -50,7 +50,11 @@ This can take a couple of minutes"</string>
     <!--Account Manager-->
 
     <string name="dialog_title_remove_account">Remove account</string>
-    <string name="dialog_message_remove_account">Are you sure you want to remove this account?\n\nSome services and functions will be unavailable\n\nYour data will not be lost</string>
+    <string name="dialog_message_remove_account">"Are you sure you want to remove this account?
+
+Some services and functions will be unavailable
+
+Your data will not be lost"</string>
     <string name="dialog_confirm_button">Remove</string>
     <string name="dialog_cancel_button">Cancel</string>
     <string name="snackbar_remove_account">Account %s removed</string>
@@ -65,9 +69,15 @@ This can take a couple of minutes"</string>
     <string name="gcm_unregister_app">Unregister</string>
     <string name="gcm_remove_registers_dialog_title">Remove all registers?</string>
     <string name="gcm_unregister_confirm_title">Unregister <xliff:g example="YouTube">%1$s</xliff:g>?</string>
-    <string name="gcm_remove_registers_dialog_message">This will remove all applications registered for push notifications at once\n\nYou will need to open the applications to re-register on cloud messaging\n\nSome apps may be unable to register again after this action</string>
-    <string name="gcm_unregister_confirm_message">Some apps do not automatically re-register and/or do not provide an option to do so manually. These apps might not work correctly after unregistering.\nContinue?</string>
-    <string name="gcm_unregister_after_deny_message">You denied an app to register for push notifications that is already registered.\nDo you want to unregister it now so it does not receive push messages in the future?</string>
+    <string name="gcm_remove_registers_dialog_message">"This will remove all applications registered for push notifications at once
+
+You will need to open the applications to re-register on cloud messaging
+
+Some apps may be unable to register again after this action"</string>
+    <string name="gcm_unregister_confirm_message">"Some apps do not automatically re-register and/or do not provide an option to do so manually. These apps might not work correctly after unregistering.
+Continue?"</string>
+    <string name="gcm_unregister_after_deny_message">"You denied an app to register for push notifications that is already registered.
+Do you want to unregister it now so it does not receive push messages in the future?"</string>
     <!--gcm: register messages infos-->
     <string name="gcm_no_message_yet">No messages received so far</string>
     <string name="gcm_last_message_at">Last message: <xliff:g example="Yesterday, 02:20 PM">%1$s</xliff:g></string>
@@ -190,7 +200,8 @@ This can take a couple of minutes"</string>
     <string name="pref_network_google_enabled">Allow connecting to Google servers</string>
     <string name="pref_network_google_enabled_summary">If disabled, all connections to Google servers usually done by MicroG will be denied. This overrides service specific settings</string>
     <string name="pref_network_google_use_tor">Connect to Google via Tor network</string>
-    <string name="pref_network_google_use_tor_summary">Requires Orbot to be installed\nNot yet supported</string>
+    <string name="pref_network_google_use_tor_summary">"Requires Orbot to be installed
+Not yet supported"</string>
     <string name="pref_auth_trust_google_title">Trust Google for app permissions</string>
     <string name="pref_auth_trust_google_summary">When disabled, the user is asked before an apps authorization request is sent to Google. Some applications will fail to use the Google account if this is disabled</string>
     <string name="pref_auth_visible_title">Allow apps to find accounts</string>
