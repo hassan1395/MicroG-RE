@@ -1,39 +1,23 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/account_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/dialog_title"
-        style="?attr/textAppearanceHeadlineSmall"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:autoSizeMaxTextSize="24sp"
-        android:autoSizeMinTextSize="18sp"
-        android:autoSizeStepGranularity="2sp"
-        android:autoSizeTextType="uniform"
-        android:ellipsize="end"
-        android:maxLines="4"
-        android:paddingBottom="20dp"
-        android:scrollbars="none"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/dialog_title_remove_account" />
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/account_card"
         style="?attr/materialCardViewFilledStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
         android:foregroundGravity="center_vertical"
         app:cardBackgroundColor="?attr/colorSecondaryContainer"
         app:cardCornerRadius="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/dialog_title">
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -42,8 +26,8 @@
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/account_avatar"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:src="@drawable/ic_account_avatar"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -52,10 +36,12 @@
 
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/account_name"
-                style="?attr/textAppearanceTitleMedium"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
+                android:ellipsize="marquee"
+                android:maxLines="2"
+                android:textAppearance="?attr/textAppearanceTitleMedium"
                 android:textColor="?attr/colorOnSecondaryContainer"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/account_avatar"
@@ -64,10 +50,12 @@
 
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/account_email"
-                style="?attr/textAppearanceBodyMedium"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
+                android:ellipsize="marquee"
+                android:maxLines="10"
+                android:textAppearance="?attr/textAppearanceBodyMedium"
                 android:textColor="?attr/colorSecondary"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
