@@ -37,6 +37,6 @@ public interface SelfCheckGroup {
     }
 
     enum Result {
-        Positive, Negative, Unknown
+        Positive, Negative, Neutral, Unknown
     }
 }

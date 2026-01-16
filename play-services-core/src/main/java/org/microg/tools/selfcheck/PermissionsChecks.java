@@ -14,6 +14,7 @@ import com.google.android.gms.R;
 import org.microg.tools.ui.AbstractSelfCheckFragment;
 
 import static org.microg.tools.selfcheck.SelfCheckGroup.Result.Negative;
+import static org.microg.tools.selfcheck.SelfCheckGroup.Result.Neutral;
 import static org.microg.tools.selfcheck.SelfCheckGroup.Result.Positive;
 
 public class PermissionsChecks implements SelfCheckGroup {
@@ -55,7 +56,7 @@ public class PermissionsChecks implements SelfCheckGroup {
 
         collector.addResult(
                 context.getString(R.string.self_check_name_overlay),
-                canDraw ? Positive : Negative,
+                canDraw ? Positive : Neutral,
                 context.getString(R.string.self_check_resolution_overlay),
                 true, null,
                 fragment -> {
