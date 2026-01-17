@@ -24,7 +24,7 @@
     <string name="update_checker_no_internet">Немає підключення до Інтернету</string>
     <string name="update_checker_generic_error">Щось пішло не так… Будь ласка, спробуйте пізніше</string>
     <!--Settings About-->
-    <string name="about_morphe_description">Morphe - відкритий проект, призначений для модифікації застосунків Android через патчі</string>
+    <string name="about_morphe_description">Morphe — відкритий проєкт, призначений для модифікації застосунків Android через патчі</string>
     <string name="about_version_str">Версія %1$s</string>
     <string name="about_default_license">Усі права захищено</string>
     <!--Self Check-->

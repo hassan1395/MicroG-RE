@@ -24,23 +24,23 @@
     <string name="signin_subtext_sharing">계속하려면, microG는 Google 계정 이름, 이메일 주소 및 프로필 사진을 \'%1$s\'와 공유합니다</string>
     <!--auth: buttons-->
     <!--auth: messages-->
-    <string name="auth_before_connect">"microG에 Google 계정을 연결하십시오.
+    <string name="auth_before_connect">"microG에 Google 계정을 연결하세요.
 
-Google 계정에 연결하려면 <b>로그인</b> 버튼을 사용하거나, 해당 제조사의 기기를 사용 중이라면 <b>Huawei</b> 버튼을 사용하십시오. 버튼 중 하나를 탭하면 계정에 로그인할 수 있는 페이지로 이동합니다."</string>
+Google 계정에 연결하려면 <b>로그인</b> 버튼을 사용하거나, 해당 제조사의 기기를 사용 중이라면 <b>Huawei</b> 버튼을 사용하세요. 버튼 중 하나를 탭하면 계정에 로그인할 수 있는 페이지로 이동합니다."</string>
     <string name="auth_connecting">"기기가 Google 서버에 연결하여 로그인을 진행 중입니다.
 
-몇 초 정도 소요될 수 있습니다"</string>
+몇 초 정도 걸릴 수 있습니다"</string>
     <string name="auth_no_network_error_desc">"네트워크에 연결되지 않았습니다.
 
-일시적인 문제일 수 있으며 Android 기기에 데이터 서비스가 제공되지 않았을 수 있습니다. 모바일 네트워크에 연결된 후 다시 시도하거나 Wi-Fi 네트워크에 연결하십시오"</string>
+일시적인 문제일 수 있으며 Android 기기에 데이터 서비스가 제공되지 않았을 수 있습니다. 모바일 네트워크에 연결된 후 다시 시도하거나 Wi-Fi 네트워크에 연결하세요"</string>
     <string name="auth_general_error_desc">"Google 서버와의 통신에 문제가 발생하였습니다.
 
-나중에 다시 시도하십시오"</string>
+나중에 다시 시도하세요"</string>
     <string name="auth_finalize">"기기가 Google에 연결되어 계정에 정보를 저장하고 있습니다
 
-몇 분 정도 소요될 수 있습니다"</string>
+몇 분 정도 걸릴 수 있습니다"</string>
     <!--auth: notifications-->
-    <string name="auth_notification_title">인증이 요구됨</string>
+    <string name="auth_notification_title">인증 필요</string>
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="auth_notification_content">\'%1$s\'는 Google 계정에 접근하기 위해 승인이 필요합니다</string>
     <!--Account Manager-->
@@ -60,7 +60,7 @@ Google 계정에 연결하려면 <b>로그인</b> 버튼을 사용하거나, 해
     <!--gcm: register dialogs-->
     <string name="gcm_registered">등록</string>
     <string name="gcm_unregister_app">등록 해제</string>
-    <string name="gcm_remove_registers_dialog_title">모든 등록을 삭제하시겠습니까?</string>
+    <string name="gcm_remove_registers_dialog_title">모든 등록을 삭제?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">\'%1$s\'을 등록 해제하시겠습니까?</string>
     <string name="gcm_remove_registers_dialog_message">"이 작업은 한 번에 모든 등록된 앱에서 푸시 알림을 삭제합니다
@@ -78,13 +78,13 @@ Google 계정에 연결하려면 <b>로그인</b> 버튼을 사용하거나, 해
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
     <string name="gcm_last_message_at">마지막 메시지: %1$s</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
-    <string name="gcm_registered_since">등록 시작: %1$s</string>
+    <string name="gcm_registered_since">등록일: %1$s</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
     <string name="gcm_messages_counter">메시지: %1$d (%2$d bytes)</string>
     <!--gcm: network states-->
     <string name="gcm_network_state_disconnected">연결 해제됨</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
-    <string name="gcm_network_state_connected">%1$s 전에 연결됨</string>
+    <string name="gcm_network_state_connected">%1$s 연결됨</string>
     <!--gcm: network types entry's-->
     <string name="network_type_mobile">모바일 네트워크</string>
     <string name="network_type_wifi">Wi-Fi</string>
@@ -131,27 +131,27 @@ Google 계정에 연결하려면 <b>로그인</b> 버튼을 사용하거나, 해
     <!-- %1$s is an app name, such as "Morphe" -->
     <string name="self_check_patched_app_installed">\'%1$s\'로 실행 중</string>
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="self_check_resolution_patched_app_installed">\'%1$s\'를 사용하는 앱을 찾을 수 없습니다. 수정된 앱을 패치하고 설치하십시오</string>
+    <string name="self_check_resolution_patched_app_installed">\'%1$s\'를 사용하는 앱을 찾을 수 없습니다. 수정된 앱을 패치하고 설치하세요</string>
     <string name="self_check_action_download_morphe">Morphe 다운로드</string>
     <!--self check: permission-->
-    <string name="self_check_name_notifications">알림이 허용됨</string>
-    <string name="self_check_resolution_notifications">알림 설정을 열려면 여기를 탭하십시오. 알림은 배터리 최적화가 활성화되었거나 다른 조건에서 GcmService가 백그라운드에서 실행되도록 유지하는 데 사용됩니다</string>
+    <string name="self_check_name_notifications">알림 허용</string>
+    <string name="self_check_resolution_notifications">알림 설정을 열려면 여기를 탭하세요. 알림은 배터리 최적화가 활성화되었거나 다른 조건에서 GcmService가 백그라운드에서 실행되도록 유지하는 데 사용됩니다</string>
     <string name="self_check_name_overlay">다른 앱 위에 표시 허용</string>
-    <string name="self_check_resolution_overlay">이 권한을 부여하려면 여기를 탭하십시오. 이 권한은 다른 앱 위에 팝업 알림을 표시하는 데 필요합니다</string>
+    <string name="self_check_resolution_overlay">이 권한을 부여하려면 여기를 탭하세요. 이 권한은 다른 앱 위에 팝업 알림을 표시하는 데 필요합니다</string>
     <!--self check: system-->
-    <string name="self_check_name_battery_optimizations">배터리 최적화가 비활성화됨</string>
+    <string name="self_check_name_battery_optimizations">배터리 최적화 비활성화</string>
     <string name="self_check_resolution_battery_optimizations">배터리 최적화를 비활성화하려면 여기를 탭하세요. 비활성화하지 않으면 YouTube 및 그 외 등록된 앱에서 알림을 수신하는 데 문제가 발생할 수 있습니다</string>
     <string name="self_check_name_oem_restriction">백그라운드 프로세스 제한</string>
-    <string name="self_check_resolution_oem_restriction">시스템에서 백그라운드 프로세스를 제한할 수 있습니다. 여기를 탭하여 Don\'t Kill My App! 사이트를 열고 이러한 제한을 해제하는 방법을 알아보십시오</string>
+    <string name="self_check_resolution_oem_restriction">시스템에서 백그라운드 프로세스를 제한할 수 있습니다. 여기를 탭하여 Don\'t Kill My App! 사이트를 열고 이러한 제한을 해제하는 방법을 알아보세요</string>
     <!--self check: signature-->
     <string name="self_check_name_system_spoofs">시스템 서명 스푸핑</string>
-    <string name="self_check_resolution_system_spoofs">어떤 단계가 필요할 수 있는지 문서를 확인하십시오</string>
+    <string name="self_check_resolution_system_spoofs">어떤 단계가 필요할 수 있는지 문서를 확인하세요</string>
     <!--self check: package-->
     <string name="self_check_pkg_gms">Play 서비스</string>
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="self_check_name_app_installed">\'%1$s\'이 설치됨</string>
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="self_check_resolution_app_installed">애플리케이션 \'%1$s\' 또는 호환되는 애플리케이션을 설치하시고, 호환되는 애플리케이션에 대한 문서를 확인하십시오</string>
+    <string name="self_check_resolution_app_installed">애플리케이션 \'%1$s\' 또는 호환되는 애플리케이션을 설치하시고, 호환되는 애플리케이션에 대한 문서를 확인하세요</string>
     <!--Settings Preferences-->
     <!--preferences: categories-->
     <string name="prefcat_accounts_login_accounts_title">로그인됨</string>
@@ -175,7 +175,7 @@ Google 계정에 연결하려면 <b>로그인</b> 버튼을 사용하거나, 해
     <string name="pref_accounts_manage_accounts_summary">기기 계정 관리자 열기</string>
     <string name="pref_manage_all_history">모든 기록 관리</string>
     <string name="pref_data_in_youtube">YouTube의 내 데이터</string>
-    <string name="pref_accounts_login_accounts_summary">계정은 이 기기에만 저장됩니다. 영구적으로 삭제하려면 계정을 탭하십시오</string>
+    <string name="pref_accounts_login_accounts_summary">계정은 이 기기에만 저장됩니다. 영구적으로 삭제하려면 계정을 탭하세요</string>
     <!--preferences: device registration-->
     <string name="pref_device_registration_device_profile_category">기기 프로필</string>
     <string name="pref_device_registration_select_profile_title">프로필 선택</string>
@@ -188,13 +188,13 @@ Google 계정에 연결하려면 <b>로그인</b> 버튼을 사용하거나, 해
     <string name="prefcat_push_apps_title">푸시 알림을 사용하는 앱</string>
     <string name="pref_push_app_allow_register_title">등록 허용</string>
     <string name="pref_push_app_allow_register_summary">앱이 푸시 알림을 등록하도록 허용합니다</string>
-    <string name="pref_push_app_wake_for_delivery_title">푸시 메시지 수신 시 앱 시작</string>
+    <string name="pref_push_app_wake_for_delivery_title">푸시 메시지 수신 시 앱 실행</string>
     <string name="pref_push_app_wake_for_delivery_summary">백그라운드에서 앱을 실행하여 푸시 메시지를 수신합니다</string>
     <string name="pref_gcm_enable_mcs_summary">클라우드 메시징은 수정된 앱에서 사용되는 푸시 알림 제공자입니다. 사용하려면 기기 등록을 활성화해야 합니다</string>
     <string name="pref_gcm_confirm_new_apps_title">새로운 앱 확인</string>
-    <string name="pref_gcm_confirm_new_apps_summary">새로운 앱을 등록하기 전에 푸시 알림 수신에 대해 확인하십시오</string>
+    <string name="pref_gcm_confirm_new_apps_summary">새로운 앱을 등록하기 전에 푸시 알림 수신에 대해 확인합니다</string>
     <string name="pref_gcm_remove_registers">모든 등록된 앱 삭제</string>
-    <string name="pref_gcm_remove_registers_summary">앱 등록이나 알림 수신에 문제가 있을 때만 이 옵션을 사용하십시오</string>
+    <string name="pref_gcm_remove_registers_summary">앱 등록이나 알림 수신에 문제가 있을 때만 이 옵션을 사용하세요</string>
     <!--preferences: privacy-->
     <string name="pref_privacy_title">개인정보 보호</string>
     <string name="pref_privacy_summary">인증 및 앱에 대한 개인정보 보호 설정</string>
@@ -212,7 +212,7 @@ Google 계정에 연결하려면 <b>로그인</b> 버튼을 사용하거나, 해
     <string name="pref_auth_strip_device_name_title">인증 시 기기 이름 삭제</string>
     <string name="pref_auth_strip_device_name_summary">이 기능이 활성화된 경우에는 인증 요청에 기기 이름이 포함되지 않아 승인되지 않은 기기에서 로그인할 수 있지만 예상되지 않은 결과가 발생할 수 있습니다</string>
     <!--preferences: hide icon in launcher-->
-    <string name="pref_hide_launcher_icon">런처에서 아이콘 숨기기</string>
+    <string name="pref_hide_launcher_icon">런처에서 앱 아이콘 숨기기</string>
     <!--preferences: about-->
     <string name="pref_about_title">MicroG RE에 대한 정보</string>
     <string name="pref_github_summary">소스 코드 리포지토리</string>

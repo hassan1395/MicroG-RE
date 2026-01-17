@@ -17,10 +17,10 @@
 <resources>
     <!--Google Cloud Messaging-->
     <plurals name="gcm_registered_apps_counter">
-        <item quantity="one">%1$d зареєстрований додаток</item>
-        <item quantity="few">%1$d зареєстровані додатки</item>
-        <item quantity="many">%1$d зареєстрованих додатків</item>
-        <item quantity="other">%1$d зареєстрованих додатків</item>
+        <item quantity="one">%1$d зареєстрований застосунок</item>
+        <item quantity="few">%1$d зареєстровані застосунки</item>
+        <item quantity="many">%1$d зареєстрованих застосунків</item>
+        <item quantity="other">%1$d зареєстрованих застосунків</item>
     </plurals>
     <!--Conditions-->
     <plurals name="cond_perm_summary">

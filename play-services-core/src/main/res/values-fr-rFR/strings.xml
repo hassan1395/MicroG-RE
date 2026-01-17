@@ -26,7 +26,7 @@
     <!--auth: messages-->
     <string name="auth_before_connect">"Connecter un compte Google avec microG.
 
-Connectons-nous à un compte Google, utilisez le bouton <b>Connexion</b> ou, si vous avez un appareil Huawei, utilisez le bouton <b>Huawei</b>
+Connectons-nous à un compte Google, utilisez le bouton <b>Se connecter</b> ou, si vous avez un appareil Huawei, utilisez le bouton <b>Huawei</b>
 En appuyant sur l’un de ces boutons, vous serez redirigé vers la page de connexion à votre compte."</string>
     <string name="auth_connecting">"Votre appareil établit une connexion avec les serveurs de Google pour vous connecter.
 

@@ -63,11 +63,11 @@ Data Anda tidak akan hilang"</string>
     <string name="gcm_remove_registers_dialog_title">Hapus semua pendaftaran?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Batalkan pendaftaran %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Ini akan menghapus semua aplikasi terdaftar untuk tidak menerima notifikasi dorong sekaligus
+    <string name="gcm_remove_registers_dialog_message">"Ini akan menghapus semua aplikasi terdaftar untuk menerima notifikasi dorong sekaligus
 
-Anda akan membutuhkan securityToken dan AndroidID baru untuk mendaftarkan aplikasi. Periksa status pendaftaran perangkat
+Anda akan membutuhkan Token keamanan dan AndroidID baru untuk mendaftarkan aplikasi. Periksa status pendaftaran perangkat
 
-Beberapa aplikasi mungkin tidak dapat mendaftar lagi setelah aksi ini. Anda mungkin perlu membersihkan data untuk aplikasi ini sebelum mereka dapat meminta pendaftaran lagi"</string>
+Beberapa aplikasi mungkin tidak dapat mendaftar lagi setelah melakukan ini. Anda mungkin perlu menghapus data aplikasi-aplikasi tersebut sebelum mereka dapat meminta pendaftaran lagi"</string>
     <string name="gcm_unregister_confirm_message">"Beberapa aplikasi tidak secara otomatis mendaftar ulang dan/atau tidak menyediakan pilihan untuk melakukannya secara manual. Aplikasi-aplikasi ini mungkin tidak berfungsi dengan benar setelah proses pembatalan pendaftaran.
 Lanjutkan?"</string>
     <string name="gcm_remove_registers_toast_message">Semua aplikasi dihapus dari notifikasi dorong</string>

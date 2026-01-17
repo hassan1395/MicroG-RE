@@ -120,7 +120,7 @@ Một số ứng dụng có thể không đăng ký lại được và sẽ cầ
     <!--self check: permission-->
     <string name="self_check_name_notifications">Bật thông báo</string>
     <string name="self_check_resolution_notifications">Ấn vào đây để mở cài đặt thông báo. Bật thông báo để giữ cho GcmService chạy trong nền khi bật tối ưu hóa hoặc tương tự</string>
-    <string name="self_check_name_overlay">Hiển thị trên ứng dụng khác</string>
+    <string name="self_check_name_overlay">Hiện trên ứng dụng khác</string>
     <string name="self_check_resolution_overlay">Ấn vào đây để cấp quyền này. Cấp quyền để hiện thông báo nổi trên ứng dụng khác</string>
     <!--self check: system-->
     <string name="self_check_name_battery_optimizations">Tắt tối ưu hóa pin</string>
@@ -197,7 +197,7 @@ Một số ứng dụng có thể không đăng ký lại được và sẽ cầ
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Ẩn ứng dụng</string>
     <!--preferences: about-->
-    <string name="pref_about_title">Giới thiệu về MicroG RE</string>
+    <string name="pref_about_title">Giới thiệu về microG RE</string>
     <string name="pref_github_summary">Kho lưu trữ mã nguồn</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">nghe trạng thái nội bộ</string>

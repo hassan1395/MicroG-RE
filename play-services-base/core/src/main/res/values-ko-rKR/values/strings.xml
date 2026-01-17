@@ -9,7 +9,7 @@
     <!-- %1$s is a notification text such as "Exposure Notification" -->
     <string name="foreground_service_notification_text" formatted="true">백그라운드에서 \'%1$s\'가 실행 중입니다</string>
     <!-- %1$s is a notification text such as "mnicroG Services" -->
-    <string name="foreground_service_notification_big_text">배터리 최적화에서 \'%1$s\'를 제외하거나 알림 설정을 변경하여 이 알림을 숨기십시오</string>
+    <string name="foreground_service_notification_big_text">배터리 최적화에서 \'%1$s\'를 제외하거나 알림 설정을 변경하여 이 알림을 숨기세요</string>
     <!--foreground service: notification actions-->
     <string name="foreground_action_battery_optimization">배터리 최적화</string>
     <string name="foreground_action_notification_settings">설정</string>

@@ -17,7 +17,7 @@
     <string name="menu_settings">Instellingen</string>
     <!--Google Cloud Messaging-->
     <string name="list_no_item_none">Geen</string>
-    <string name="list_item_see_all">Bekijk alles</string>
+    <string name="list_item_see_all">Alles bekijken</string>
     <!--gcm: network status-->
     <string name="service_status_disabled">Uitgeschakeld</string>
     <string name="service_status_enabled">Ingeschakeld</string>
