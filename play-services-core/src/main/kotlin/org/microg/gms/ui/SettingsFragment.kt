@@ -12,7 +12,6 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Bundle
 import android.os.PowerManager
-import android.provider.Settings
 import android.util.Log
 import android.view.View
 import androidx.activity.result.contract.ActivityResultContracts
@@ -27,6 +26,7 @@ import com.google.android.material.floatingactionbutton.ExtendedFloatingActionBu
 import com.google.android.material.transition.MaterialSharedAxis
 import kotlinx.coroutines.launch
 import org.microg.gms.checkin.CheckinPreferences
+import org.microg.gms.common.ForegroundServiceOemUtils
 import org.microg.gms.gcm.GcmDatabase
 import org.microg.gms.gcm.GcmPrefs
 import org.microg.gms.ui.settings.SettingsProvider
@@ -172,18 +172,8 @@ class SettingsFragment : ResourceSettingsFragment() {
 
     private fun requestIgnoringBatteryOptimizations() {
         val ctx = context ?: return
-        val intent = Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS).apply {
-            data = "package:${ctx.packageName}".toUri()
-        }
-        try {
+        ForegroundServiceOemUtils.openBatteryOptimizationSettings(ctx) { intent ->
             requestIgnoreBatteryOptimizationLauncher.launch(intent)
-        } catch (_: ActivityNotFoundException) {
-            try {
-                val fallbackIntent = Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS)
-                requestIgnoreBatteryOptimizationLauncher.launch(fallbackIntent)
-            } catch (e2: ActivityNotFoundException) {
-                Log.w(TAG, "Device does not support ignoring battery optimizations", e2)
-            }
         }
     }
 

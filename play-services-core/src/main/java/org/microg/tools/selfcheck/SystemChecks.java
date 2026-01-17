@@ -19,15 +19,14 @@ package org.microg.tools.selfcheck;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.PowerManager;
-import android.provider.Settings;
 
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.gms.R;
 
+import org.microg.gms.common.ForegroundServiceOemUtils;
 import org.microg.tools.ui.AbstractSelfCheckFragment;
 import org.microg.tools.ui.AbstractSelfCheckFragment.ChipInfo;
 
@@ -61,20 +60,18 @@ public class SystemChecks implements SelfCheckGroup {
                 context.getString(R.string.self_check_resolution_battery_optimizations),
                 true, null,
                 fragment -> {
-                    Intent intent = new Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS);
-                    intent.setData(Uri.parse("package:" + fragment.requireContext().getPackageName()));
-                    launch(fragment, intent);
+                    ForegroundServiceOemUtils.openBatteryOptimizationSettings(fragment.requireContext(), intent -> launch(fragment, intent));
                 });
     }
 
     private void alertOemBackgroundRestrictionLink(Context context, ResultCollector collector) {
-        String slug = OemUtils.getDkmaSlug();
+        String slug = ForegroundServiceOemUtils.getDkmaSlug();
         if (!slug.isEmpty()) {
             ChipInfo dkmaChip = new ChipInfo(
                     "dontkillmyapp.com",
                     ContextCompat.getDrawable(context, R.drawable.ic_self_check_open),
                     v -> {
-                        Intent intent = OemUtils.getDkmaIntent(slug);
+                        Intent intent = ForegroundServiceOemUtils.getDkmaIntent(slug);
                         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         context.startActivity(intent);
                     }
