@@ -36,14 +36,12 @@ public class ForegroundServiceOemUtils {
         return new Intent(Intent.ACTION_VIEW, Uri.parse(url));
     }
 
-    /// Temporary fix: [#112](https://github.com/MorpheApp/MicroG-RE/issues/112)
-
     public static boolean isXiaomi() {
         return Build.MANUFACTURER.toLowerCase(Locale.ROOT).contains("xiaomi");
     }
 
-    @android.annotation.SuppressLint("BatteryLife")
     public static Intent getBatteryOptimizationIntent(Context context) {
+        // Temporary fix issues: https://github.com/MorpheApp/MicroG-RE/issues/112
         if (isXiaomi()) {
             return new Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS);
         } else {
