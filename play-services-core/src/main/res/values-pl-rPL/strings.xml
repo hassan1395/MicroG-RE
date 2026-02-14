@@ -32,7 +32,7 @@ Użyj przycisku <b>Zaloguj się</b> lub przycisku <b>Huawei</b>, jeśli masz urz
 To może potrwać kilka sekund"</string>
     <string name="auth_no_network_error_desc">"Nie masz połączenia z siecią.
 
-To może być tymczasowe problem lub Twoje urządzenie Android może nie być skonfigurowane do dostępu do usług danych. Spróbuj ponownie, gdy będziesz połączony z siecią komórkową lub połącz się z siecią Wi-Fi."</string>
+Może to być problem tymczasowy lub Twoje urządzenie nie ma skonfigurowanych usług przesyłania danych. Spróbuj ponownie po połączeniu z siecią komórkową lub Wi-Fi."</string>
     <string name="auth_general_error_desc">"Wystąpił problem podczas komunikacji z serwerami Google.
 
 Spróbuj ponownie później"</string>
@@ -60,7 +60,7 @@ Twoje dane nie zostaną utracone"</string>
     <!--gcm: register dialogs-->
     <string name="gcm_registered">Zarejestrowane</string>
     <string name="gcm_unregister_app">Wyrejestruj</string>
-    <string name="gcm_remove_registers_dialog_title">Usuń wszystkie rejestracje?</string>
+    <string name="gcm_remove_registers_dialog_title">Usunąć wszystkie rejestracje?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Wyrejestrować %1$s?</string>
     <string name="gcm_remove_registers_dialog_message">"Spowoduje to natychmiastowe usunięcie wszystkich zarejestrowanych aplikacji z otrzymywania powiadomień Push
@@ -68,11 +68,9 @@ Twoje dane nie zostaną utracone"</string>
 Potrzebujesz nowego securityToken i AndroidID do zarejestrowania aplikacji. Sprawdź status rejestracji urządzenia
 
 Niektóre aplikacje mogą nie być w stanie zarejestrować się ponownie. Musisz wyczyścić dane tych aplikacji, zanim będą mogły ponownie wysłać prośbę o rejestrację"</string>
-    <string name="gcm_unregister_confirm_message">"Niektóre aplikacje nie automatycznie zarejestrują i/lub nie oferują opcji zarejestrowania ręcznie. Te aplikacje mogą nie działać poprawnie po odrejestrowaniu.
- Kontynuować?"</string>
+    <string name="gcm_unregister_confirm_message">"Niektóre aplikacje nie rejestrują się ponownie automatycznie lub nie oferują takiej opcji ręcznie. Po wyrejestrowaniu mogą one przestać działać prawidłowo. Kontynuować?"</string>
     <string name="gcm_remove_registers_toast_message">Wszystkie aplikacje zostały usunięte z powiadomień Push</string>
-    <string name="gcm_unregister_after_deny_message">"Odrzuciłeś aplikację do rejestracji do otrzymywania powiadomień, która jest już zarejestrowana.
- Czy chcesz ją odrejestrować teraz, aby nie otrzymywała powiadomień w przyszłości?"</string>
+    <string name="gcm_unregister_after_deny_message">"Odmówiono rejestracji aplikacji, która jest już zarejestrowana w usłudze powiadomień Push. Czy chcesz ją wyrejestrować teraz, aby nie otrzymywała wiadomości w przyszłości?"</string>
     <!--gcm: register messages infos-->
     <string name="gcm_no_message_yet">Brak otrzymanych powiadomień</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
@@ -93,14 +91,14 @@ Niektóre aplikacje mogą nie być w stanie zarejestrować się ponownie. Musisz
     <!--gcm: push notifications ping entry's-->
     <string name="push_notifications_summary_off">WYŁ</string>
     <string name="push_notifications_summary_automatic">WŁ / Automatycznie: %s</string>
-    <string name="push_notifications_summary_manual">WŁ / Manualnie: %s</string>
+    <string name="push_notifications_summary_manual">WŁ / Ręcznie: %s</string>
     <string name="push_notifications_summary_values_seconds">%s sekund</string>
     <string name="push_notifications_summary_values_minutes">%s minut</string>
     <!--gcm: ask push permission dialog-->
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="gcm_allow_app_popup">Pozwolić %1$s na rejestrację do powiadomień Push?</string>
     <string name="allow">Zezwól</string>
-    <string name="deny">Odrzuc</string>
+    <string name="deny">Odrzuć</string>
     <!--gcm: ask permission tos-->
     <string name="ask_permission_tos">Kontynuując, zezwalasz na wykorzystanie Twoich danych przez tę aplikację i Google zgodnie z ich odpowiednimi regulaminami i politykami prywatności</string>
     <!-- %1$s is an app name, such as "YouTube" -->
@@ -110,7 +108,7 @@ Niektóre aplikacje mogą nie być w stanie zarejestrować się ponownie. Musisz
     <string name="service_name_checkin">Rejestracja urządzenia</string>
     <string name="checkin_enable_switch">Zezwól na rejestrację urządzenia</string>
     <!--checkin: registration status-->
-    <string name="checkin_not_registered">Nie zarejestrowany</string>
+    <string name="checkin_not_registered">Niezarejestrowany</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
     <string name="checkin_last_registration">Ostatnia rejestracja: %1$s</string>
     <!--checkin: profile names types entry's-->
@@ -121,25 +119,25 @@ Niektóre aplikacje mogą nie być w stanie zarejestrować się ponownie. Musisz
     <string name="profile_name_system">Systemowe: %s</string>
     <!--Self Check-->
     <!--self check: categories-->
-    <string name="self_check_cat_system">Kategoria: System</string>
-    <string name="self_check_cat_patched_apps">Kategoria: Zmodyfikowane aplikacje</string>
-    <string name="self_check_cat_gms_packages">Kategoria: Zainstalowane pakiety</string>
-    <string name="self_check_cat_fake_sig">Kategoria: Wsparcie oszukiwania podpisu</string>
+    <string name="self_check_cat_system">System</string>
+    <string name="self_check_cat_patched_apps">Zmodyfikowane aplikacje</string>
+    <string name="self_check_cat_gms_packages">Zainstalowane pakiety</string>
+    <string name="self_check_cat_fake_sig">Wsparcie oszukiwania podpisu</string>
     <!--self check: patched apps-->
     <string name="self_check_source_morphe">Modyfikacje Morphe</string>
     <string name="self_check_source_alternative">Alternatywne modyfikacje</string>
     <!-- %1$s is an app name, such as "Morphe" -->
     <string name="self_check_patched_app_installed">Działanie z %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="self_check_resolution_patched_app_installed">Aplikacje używające %1$s nie zostały znalezione. Proszę o zmodyfikowanie i zainstalowanie zmodyfikowanej aplikacji</string>
+    <string name="self_check_resolution_patched_app_installed">Nie znaleziono aplikacji korzystających z %1$s. Zmodyfikuj i zainstaluj wybraną aplikację.</string>
     <string name="self_check_action_download_morphe">Pobierz Morphe</string>
     <!--self check: permission-->
-    <string name="self_check_name_notifications">Powiadomienia zezwolone</string>
+    <string name="self_check_name_notifications">Zezwolono na powiadomienia</string>
     <string name="self_check_resolution_notifications">Stuknij tutaj, aby otworzyć ustawienia powiadomień. Powiadomienia są używane do utrzymania GcmService w tle, gdy optymalizacja baterii jest włączona lub w innych przypadkach</string>
-    <string name="self_check_name_overlay">Wyświetl na innych aplikacjach zezwolone</string>
-    <string name="self_check_resolution_overlay">Dotknij tutaj, aby przyznać to uprawnienie. Jest ono wymagane do wyświetlania wyskakujących powiadomień nad innymi aplikacjami</string>
+    <string name="self_check_name_overlay">Zezwolono na wyświetlanie nad innymi aplikacjami</string>
+    <string name="self_check_resolution_overlay">Stuknij tutaj, aby przyznać to uprawnienie. Jest ono wymagane do wyświetlania wyskakujących powiadomień nad innymi aplikacjami</string>
     <!--self check: system-->
-    <string name="self_check_name_battery_optimizations">Optymalizacje baterii wyłączone</string>
+    <string name="self_check_name_battery_optimizations">Wyłączono optymalizacje baterii</string>
     <string name="self_check_resolution_battery_optimizations">Stuknij tutaj, aby wyłączyć optymalizację baterii. Jeśli nie zostanie wyłączona, możesz doświadczyć problemów z otrzymywaniem powiadomień z YouTube i innych zarejestrowanych aplikacji</string>
     <string name="self_check_name_oem_restriction">Ograniczenia procesów w tle</string>
     <string name="self_check_resolution_oem_restriction">Twoje urządzenie może ograniczać procesy w tle. Stuknij tutaj, aby otworzyć stronę \"Don’t Kill My App!\" i dowiedz się, jak wyłączyć te ograniczenia</string>
@@ -147,7 +145,7 @@ Niektóre aplikacje mogą nie być w stanie zarejestrować się ponownie. Musisz
     <string name="self_check_name_system_spoofs">System oszukuje podpis</string>
     <string name="self_check_resolution_system_spoofs">Sprawdź dokumentację, aby dowiedzieć się, które kroki mogą być wymagane</string>
     <!--self check: package-->
-    <string name="self_check_pkg_gms">Play Services</string>
+    <string name="self_check_pkg_gms">Usługi Play</string>
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="self_check_name_app_installed">%1$s zainstalowany</string>
     <!-- %1$s is an app name, such as "YouTube" -->
@@ -183,34 +181,34 @@ Niektóre aplikacje mogą nie być w stanie zarejestrować się ponownie. Musisz
     <string name="pref_device_registration_import_custom_profile_summary">Importuj profil urządzenia z pliku</string>
     <string name="pref_device_registration_serial_title">Numer seryjny</string>
     <string name="pref_device_registration_android_id">ID Android</string>
-    <string name="pref_checkin_enable_summary">Rejestruje Twoje urządzenie do usług Google i tworzy unikalny identyfikator urządzenia. microG usuwa identyfikacyjne bity poza Twoją nazwą konta Google z danych rejestracyjnych</string>
+    <string name="pref_checkin_enable_summary">Rejestruje urządzenie w usługach Google i tworzy unikalny identyfikator urządzenia. microG usuwa z danych rejestracyjnych dane identyfikacyjne inne niż nazwa Twojego konta Google</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Aplikacje używające powiadomień Push</string>
     <string name="pref_push_app_allow_register_title">Zezwól na rejestrację</string>
-    <string name="pref_push_app_allow_register_summary">Zezwól aplikacji na rejestrację do powiadomień Push</string>
+    <string name="pref_push_app_allow_register_summary">Zezwól aplikacji na rejestrację w usłudze powiadomień Push</string>
     <string name="pref_push_app_wake_for_delivery_title">Uruchamiaj aplikację przy otrzymaniu powiadomienia Push</string>
     <string name="pref_push_app_wake_for_delivery_summary">Uruchom aplikację w tle, aby otrzymywać przychodzące powiadomienia Push</string>
-    <string name="pref_gcm_enable_mcs_summary">Cloud messaging to dostawca powiadomień Push używany dla zmodyfikowanych aplikacji. Aby go użyć, musisz włączyć rejestrację urządzenia</string>
+    <string name="pref_gcm_enable_mcs_summary">Cloud messaging to dostawca powiadomień Push używany dla zmodyfikowanych aplikacji. Aby z tego korzystać, musisz włączyć rejestrację urządzenia</string>
     <string name="pref_gcm_confirm_new_apps_title">Potwierdź nowe aplikacje</string>
     <string name="pref_gcm_confirm_new_apps_summary">Zapytaj przed rejestracją nowej aplikacji do otrzymywania powiadomień Push</string>
     <string name="pref_gcm_remove_registers">Usuń wszystkie rejestracje</string>
-    <string name="pref_gcm_remove_registers_summary">Użyj tej opcji tylko, jeśli maszysz problemy z rejestracją aplikacji lub otrzymywaniem powiadomień</string>
+    <string name="pref_gcm_remove_registers_summary">Użyj tej opcji tylko wtedy, gdy masz problemy z rejestracją aplikacji lub otrzymywaniem powiadomień</string>
     <!--preferences: privacy-->
     <string name="pref_privacy_title">Prywatność</string>
     <string name="pref_privacy_summary">Ustawienia prywatności dla uwierzytelniania i aplikacji</string>
     <string name="pref_network_google_enabled">Zezwól na połączenie z serwerami Google</string>
-    <string name="pref_network_google_enabled_summary">Jeśli wyłączone, wszystkie połączenia z serwerami Google zazwyczaj robione przez microG zostaną odrzucone. To nadpisuje specyficzne ustawienia usług</string>
+    <string name="pref_network_google_enabled_summary">Jeśli opcja jest wyłączona, wszystkie połączenia z serwerami Google wykonywane przez microG zostaną odrzucone. To ustawienie nadrzędne wobec opcji konkretnych usług</string>
     <string name="pref_network_google_use_tor">Połącz się z Google przez sieć Tor</string>
     <string name="pref_network_google_use_tor_summary">"Wymaga zainstalowania aplikacji Orbot
 Jeszcze nieobsługiwane"</string>
     <string name="pref_auth_trust_google_title">Zaufaj Google dla uprawnień aplikacji</string>
-    <string name="pref_auth_trust_google_summary">Jeśli wyłączone, użytkownik zostanie poproszony przed wysłaniem żądania o autoryzację do Google. Niektóre aplikacje mogą nie być w stanie użyć konta Google, jeśli to jest wyłączone</string>
+    <string name="pref_auth_trust_google_summary">Gdy opcja jest wyłączona, użytkownik zostanie poproszony przed wysłaniem żądania o autoryzację do Google. Niektóre aplikacje mogą nie być w stanie użyć konta Google, jeśli ta opcja jest wyłączona</string>
     <string name="pref_auth_visible_title">Zezwól aplikacjom na znalezienie kont</string>
-    <string name="pref_auth_visible_summary">Jeśli włączone, wszystkie aplikacje na tym urządzeniu będą mogły widzieć adres email Twoich kont Google bez uprzedniej autoryzacji</string>
+    <string name="pref_auth_visible_summary">Gdy opcja jest włączona, wszystkie aplikacje na tym urządzeniu będą mogły widzieć adresy e-mail Twoich kont Google bez wcześniejszej autoryzacji</string>
     <string name="pref_auth_include_android_id_title">Uwierzytelnij za pomocą rejestracji urządzenia</string>
-    <string name="pref_auth_include_android_id_summary">Kiedy wyłączone, żądania uwierzytelniania nie będą łączyć się z rejestracją urządzenia, co pozwala nieuprawnionym urządzeniom do zalogowania się, ale może mieć nieoczekiwane konsekwencje</string>
+    <string name="pref_auth_include_android_id_summary">Gdy opcja jest wyłączona, żądania autoryzacji nie będą powiązane z rejestracją urządzenia, co pozwala nieautoryzowanym urządzeniom do zalogowania się, ale może mieć nieprzewidziane skutki</string>
     <string name="pref_auth_strip_device_name_title">Usuń nazwę urządzenia dla uwierzytelniania</string>
-    <string name="pref_auth_strip_device_name_summary">Kiedy włączone, żądania uwierzytelniania nie będą zawierać nazwy urządzenia, co może pozwalać nieuprawnionym urządzeniom na zalogowanie się, ale może mieć nieoczekiwane konsekwencje</string>
+    <string name="pref_auth_strip_device_name_summary">Gdy opcja jest włączona, żądania autoryzacji nie będą zawierać nazwy urządzenia, co może pozwalać nieautoryzowanym urządzeniom na zalogowanie się, ale może mieć nieprzewidziane skutki</string>
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Ukryj ikonę w launcherze</string>
     <!--preferences: about-->

@@ -63,16 +63,16 @@ Data Anda tidak akan hilang"</string>
     <string name="gcm_remove_registers_dialog_title">Hapus semua pendaftaran?</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
     <string name="gcm_unregister_confirm_title">Batalkan pendaftaran %1$s?</string>
-    <string name="gcm_remove_registers_dialog_message">"Ini akan menghapus semua aplikasi terdaftar untuk menerima notifikasi dorong sekaligus
+    <string name="gcm_remove_registers_dialog_message">"Ini akan menghapus semua aplikasi terdaftar untuk menerima pemberitahuan dorong sekaligus
 
 Anda akan membutuhkan Token keamanan dan AndroidID baru untuk mendaftarkan aplikasi. Periksa status pendaftaran perangkat
 
 Beberapa aplikasi mungkin tidak dapat mendaftar lagi setelah melakukan ini. Anda mungkin perlu menghapus data aplikasi-aplikasi tersebut sebelum mereka dapat meminta pendaftaran lagi"</string>
     <string name="gcm_unregister_confirm_message">"Beberapa aplikasi tidak secara otomatis mendaftar ulang dan/atau tidak menyediakan pilihan untuk melakukannya secara manual. Aplikasi-aplikasi ini mungkin tidak berfungsi dengan benar setelah proses pembatalan pendaftaran.
 Lanjutkan?"</string>
-    <string name="gcm_remove_registers_toast_message">Semua aplikasi dihapus dari notifikasi dorong</string>
-    <string name="gcm_unregister_after_deny_message">"Anda menolak aplikasi untuk mendaftar untuk notifikasi dorong yang sudah terdaftar.
-Apakah Anda ingin membatalkan pendaftarannya sekarang sehingga tidak menerima notifikasi dorong di masa mendatang?"</string>
+    <string name="gcm_remove_registers_toast_message">Semua aplikasi dihapus dari pemberitahuan dorong</string>
+    <string name="gcm_unregister_after_deny_message">"Anda menolak aplikasi untuk mendaftar untuk pemberitahuan dorong yang sudah terdaftar.
+Apakah Anda ingin membatalkan pendaftarannya sekarang sehingga tidak menerima pemberitahuan dorong di masa mendatang?"</string>
     <!--gcm: register messages infos-->
     <string name="gcm_no_message_yet">Belum ada pesan yang diterima hingga saat ini</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
@@ -98,7 +98,7 @@ Apakah Anda ingin membatalkan pendaftarannya sekarang sehingga tidak menerima no
     <string name="push_notifications_summary_values_minutes">%s menit</string>
     <!--gcm: ask push permission dialog-->
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="gcm_allow_app_popup">Izinkan %1$s untuk mendaftar untuk notifikasi dorong?</string>
+    <string name="gcm_allow_app_popup">Izinkan %1$s untuk mendaftar untuk pemberitahuan dorong?</string>
     <string name="allow">Izinkan</string>
     <string name="deny">Tolak</string>
     <!--gcm: ask permission tos-->
@@ -134,13 +134,13 @@ Apakah Anda ingin membatalkan pendaftarannya sekarang sehingga tidak menerima no
     <string name="self_check_resolution_patched_app_installed">Aplikasi yang menggunakan %1$s tidak ditemukan. Silakan tambal dan pasangl aplikasi yang dimodifikasi</string>
     <string name="self_check_action_download_morphe">Unduh Morphe</string>
     <!--self check: permission-->
-    <string name="self_check_name_notifications">Notifikasi diizinkan</string>
-    <string name="self_check_resolution_notifications">Ketuk di sini untuk membuka pengaturan notifikasi. Notifikasi digunakan untuk menjaga GcmService berjalan di latar belakang ketika optimasi baterai diaktifkan atau dalam keadaan lain</string>
+    <string name="self_check_name_notifications">Pemberitahuan diizinkan</string>
+    <string name="self_check_resolution_notifications">Ketuk di sini untuk membuka pengaturan pemberitahuan. Pemberitahuan digunakan untuk menjaga GcmService berjalan di latar belakang ketika optimasi baterai diaktifkan atau dalam keadaan lain</string>
     <string name="self_check_name_overlay">Tampilkan di atas aplikasi lain diizinkan</string>
     <string name="self_check_resolution_overlay">Ketuk di sini untuk memberikan izin ini. Izin ini diperlukan untuk menampilkan pemberitahuan sembulan di atas aplikasi lain.</string>
     <!--self check: system-->
     <string name="self_check_name_battery_optimizations">Optimasi baterai dinonaktifkan</string>
-    <string name="self_check_resolution_battery_optimizations">Ketuk di sini untuk menonaktifkan optimasi baterai. Jika tetap dinonaktifkan, Anda mungkin akan mengalami masalah dalam menerima notifikasi dari YouTube dan aplikasi lainnya</string>
+    <string name="self_check_resolution_battery_optimizations">Ketuk di sini untuk menonaktifkan optimasi baterai. Jika tetap dinonaktifkan, Anda mungkin akan mengalami masalah dalam menerima pemberitahuan dari YouTube dan aplikasi lainnya</string>
     <string name="self_check_name_oem_restriction">Batasi proses latar belakang</string>
     <string name="self_check_resolution_oem_restriction">Sistem Anda mungkin membatasi proses latar belakang. Klik di sini untuk membuka situs Don’t Kill My App! dan mempelajari bagaimana menonaktifkan batasan ini</string>
     <!--self check: signature-->
@@ -160,7 +160,7 @@ Apakah Anda ingin membatalkan pendaftarannya sekarang sehingga tidak menerima no
     <string name="prefcat_push_apps_registered_title">Aplikasi terdaftar</string>
     <string name="prefcat_push_apps_unregistered_title">Aplikasi tidak terdaftar</string>
     <string name="prefcat_gcm_registers">Pendaftaran</string>
-    <string name="prefcat_push_networks_title">Jaringan untuk digunakan untuk notifikasi dorong</string>
+    <string name="prefcat_push_networks_title">Jaringan untuk digunakan untuk pemberitahuan dorong</string>
     <string name="prefcat_applications">Aplikasi</string>
     <string name="prefcat_authentication">Autentikasi</string>
     <string name="prefcat_about">Tentang</string>
@@ -185,16 +185,16 @@ Apakah Anda ingin membatalkan pendaftarannya sekarang sehingga tidak menerima no
     <string name="pref_device_registration_android_id">ID Android</string>
     <string name="pref_checkin_enable_summary">Daftarkan perangkat Anda ke layanan Google dan membuat identitas perangkat unik. microG menghapus bagian-bagian yang mengidentifikasi selain nama akun Google Anda dari data pendaftaran</string>
     <!--preferences: cloud messaging-->
-    <string name="prefcat_push_apps_title">Aplikasi menggunakan notifikasi dorong</string>
+    <string name="prefcat_push_apps_title">Aplikasi menggunakan pemberitahuan dorong</string>
     <string name="pref_push_app_allow_register_title">Izinkan pendaftaran</string>
-    <string name="pref_push_app_allow_register_summary">Izinkan aplikasi untuk mendaftar untuk notifikasi dorong</string>
+    <string name="pref_push_app_allow_register_summary">Izinkan aplikasi untuk mendaftar untuk pemberitahuan dorong</string>
     <string name="pref_push_app_wake_for_delivery_title">Mulai aplikasi saat menerima pesan dorong</string>
     <string name="pref_push_app_wake_for_delivery_summary">Mulai aplikasi saat di latar belakang untuk menerima pesan dorong masuk</string>
     <string name="pref_gcm_enable_mcs_summary">Pesan cloud adalah penyedia pemberitahuan dorong yang digunakan untuk aplikasi yang dimodifikasi. Untuk menggunakannya, Anda harus mengaktifkan pendaftaran perangkat</string>
     <string name="pref_gcm_confirm_new_apps_title">Konfirmasi aplikasi baru</string>
-    <string name="pref_gcm_confirm_new_apps_summary">Tanya sebelum mendaftarkan aplikasi baru untuk menerima notifikasi dorong</string>
+    <string name="pref_gcm_confirm_new_apps_summary">Tanya sebelum mendaftarkan aplikasi baru untuk menerima pemberitahuan dorong</string>
     <string name="pref_gcm_remove_registers">Hapus semua aplikasi terdaftar</string>
-    <string name="pref_gcm_remove_registers_summary">Hanya gunakan pilihan ini jika Anda memiliki masalah dalam mendaftarkan aplikasi atau menerima notifikasi</string>
+    <string name="pref_gcm_remove_registers_summary">Hanya gunakan pilihan ini jika Anda memiliki masalah dalam mendaftarkan aplikasi atau menerima pemberitahuan</string>
     <!--preferences: privacy-->
     <string name="pref_privacy_title">Privasi</string>
     <string name="pref_privacy_summary">Pengaturan privasi untuk autentikasi dan aplikasi</string>
@@ -225,7 +225,7 @@ Belum didukung"</string>
     <string name="perm_extended_access_label">Akses lanjutan ke layanan Google</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Optimasi baterai diaktifkan</string>
-    <string name="cond_gcm_bat_summary">Anda mengaktifkan layanan cloud tetapi memiliki optimasi baterai aktif untuk Layanan microG. Untuk menerima notifikasi dorong, Anda harus mengabaikan optimasi baterai</string>
+    <string name="cond_gcm_bat_summary">Anda mengaktifkan layanan cloud tetapi memiliki optimasi baterai aktif untuk Layanan microG. Untuk menerima pemberitahuan dorong, Anda harus mengabaikan optimasi baterai</string>
     <string name="cond_gcm_bat_action">Abaikan optimasi</string>
     <string name="cond_perm_title">Perizinan hilang</string>
 </resources>

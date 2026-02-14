@@ -16,5 +16,20 @@
   -->
 <resources>
     <!--Google Cloud Messaging-->
+    <plurals name="gcm_registered_apps_counter">
+        <item quantity="one">%1$d registrirana aplikacija</item>
+        <item quantity="few">%1$d registriranih aplikacija</item>
+        <item quantity="other">%1$d registriranih aplikacija</item>
+    </plurals>
     <!--Conditions-->
+    <plurals name="cond_perm_summary">
+        <item quantity="one">Dopuštenje potrebno za ispravan rad usluga microG nije odobreno.</item>
+        <item quantity="few">Dopuštenja potrebna za ispravan rad usluga microG nisu odobrena.</item>
+        <item quantity="other">Dopuštenja potrebna za ispravan rad usluga microG nisu odobrena.</item>
+    </plurals>
+    <plurals name="cond_perm_action">
+        <item quantity="one">Zahtjev za nedostajuća dopuštenja</item>
+        <item quantity="few">Zatražite nedostajuće dozvole</item>
+        <item quantity="other">Zatražite nedostajuće dozvole</item>
+    </plurals>
 </resources>

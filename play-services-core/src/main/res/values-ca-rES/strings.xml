@@ -48,6 +48,7 @@
     <!-- %1$s is an app name, such as "YouTube" -->
     <!--Settings Preferences-->
     <!--preferences: categories-->
+    <string name="prefcat_about">Quant a</string>
     <!--preferences: account manager-->
     <!--preferences: device registration-->
     <!--preferences: cloud messaging-->

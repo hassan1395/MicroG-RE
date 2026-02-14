@@ -17,11 +17,11 @@
 <resources>
     <!--Google Cloud Messaging-->
     <plurals name="gcm_registered_apps_counter">
-        <item quantity="other">%1$d 註冊的應用程序</item>
+        <item quantity="other">%1$d 註冊的應用程式</item>
     </plurals>
     <!--Conditions-->
     <plurals name="cond_perm_summary">
-        <item quantity="other">需要為正確功能運行微G服務而授予的權限未獲准。</item>
+        <item quantity="other">需要為正確功能執行 microG 服務而授予的權限未獲准。</item>
     </plurals>
     <plurals name="cond_perm_action">
         <item quantity="other">缺少必要權限，請求中</item>

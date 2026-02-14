@@ -16,5 +16,11 @@
   -->
 <resources>
     <!--Google Cloud Messaging-->
+    <plurals name="gcm_registered_apps_counter">
+        <item quantity="other">កម្មវិធីដែលបានចុះបញ្ជី %1$d</item>
+    </plurals>
     <!--Conditions-->
+    <plurals name="cond_perm_action">
+        <item quantity="other">ស្នើសុំការអនុញ្ញាតដែលបានខ្វះ</item>
+    </plurals>
 </resources>

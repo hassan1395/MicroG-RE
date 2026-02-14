@@ -17,16 +17,16 @@
 <resources>
     <!--Google Cloud Messaging-->
     <plurals name="gcm_registered_apps_counter">
-        <item quantity="one">%1$d qeydə alınan tətbiq</item>
-        <item quantity="other">%1$d qeydə alınan tətbiq</item>
+        <item quantity="one">%1$d registrerad app</item>
+        <item quantity="other">%1$d registrerade appar</item>
     </plurals>
     <!--Conditions-->
     <plurals name="cond_perm_summary">
-        <item quantity="one">MicroG Xidmətlərinin düzgün işləməsi üçün tələb olunan icazə verilmir.</item>
-        <item quantity="other">MicroG Xidmətlərinin düzgün işləməsi üçün tələb olunan icazələr verilmir.</item>
+        <item quantity="one">En behörighet som krävs för korrekt funktionalitet för microG-tjänster har inte beviljats.</item>
+        <item quantity="other">Behörigheter som krävs för korrekt funktionalitet för microG-tjänster har inte beviljats.</item>
     </plurals>
     <plurals name="cond_perm_action">
-        <item quantity="one">Çatışmayan icazəni tələb et</item>
-        <item quantity="other">Çatışmayan icazələri tələb et</item>
+        <item quantity="one">Begär saknad behörighet</item>
+        <item quantity="other">Begär saknade behörigheter</item>
     </plurals>
 </resources>

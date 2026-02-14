@@ -5,7 +5,7 @@
   -->
 <resources>
     <!--Foreground service notification-->
-    <string name="foreground_service_notification_title">Активний на фоні</string>
+    <string name="foreground_service_notification_title">Активний у фоновому режимі</string>
     <!-- %1$s is a notification text such as "Exposure Notification" -->
     <string name="foreground_service_notification_text" formatted="true">%1$s працює в фоновому режимі</string>
     <!-- %1$s is a notification text such as "mnicroG Services" -->
@@ -23,7 +23,7 @@
     <string name="service_status_enabled">Увімкнено</string>
     <string name="service_status_automatic">Автоматично</string>
     <string name="service_status_manual">Ручне</string>
-    <string name="service_status_enabled_short">Вкл.</string>
+    <string name="service_status_enabled_short">Увімкн.</string>
     <string name="service_status_disabled_short">Вимк.</string>
     <!--Patchers names-->
 </resources>

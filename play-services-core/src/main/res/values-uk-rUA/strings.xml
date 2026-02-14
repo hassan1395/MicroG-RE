@@ -166,14 +166,14 @@
     <string name="pref_accounts_manage_accounts_title">Відкрити менеджер облікових записів пристрою</string>
     <string name="pref_accounts_manage_accounts_summary">Керувати всіма історіями</string>
     <string name="pref_manage_all_history">Ваші дані в YouTube</string>
-    <string name="pref_data_in_youtube">Облікові записи зберігаються та зберігаються лише на цьому пристрою. Натисніть обліковий запис, щоб видалити його з цього пристрою назавжди</string>
+    <string name="pref_data_in_youtube">Ваші дані в YouTube</string>
     <string name="pref_accounts_login_accounts_summary">Профіль пристрою</string>
     <!--preferences: device registration-->
     <string name="pref_device_registration_device_profile_category">Виберіть профіль</string>
     <string name="pref_device_registration_select_profile_title">Імпортувати користувацький профіль</string>
     <string name="pref_device_registration_import_custom_profile_title">Імпортувати профіль пристрою з файлу</string>
     <string name="pref_device_registration_import_custom_profile_summary">Серійний номер</string>
-    <string name="pref_device_registration_serial_title">Android ID</string>
+    <string name="pref_device_registration_serial_title">Серійний номер</string>
     <string name="pref_device_registration_android_id">Реєструє ваш пристрій до сервісів Google та створює унікальний ідентифікатор пристрою. MicroG видаляє ідентифікаційні біти, окрім імені облікового запису Google, з даних реєстрації</string>
     <string name="pref_checkin_enable_summary">Реєструє ваш пристрій на сервісах Google та створює унікальний ідентифікатор пристрою. microG видаляє ідентифікуючі біти, крім імені вашого облікового запису Google, з даними реєстрації</string>
     <!--preferences: cloud messaging-->
@@ -209,11 +209,11 @@
     <string name="pref_about_title">Про MicroG RE</string>
     <string name="pref_github_summary">Дозвіл на обробку</string>
     <!--Permissions-->
-    <string name="perm_status_broadcast_label">Дозвіл на обробку</string>
-    <string name="perm_gsf_read_gservices_label">Дозвіл на обробку</string>
-    <string name="perm_c2dm_receive_label">Дозвіл на обробку</string>
+    <string name="perm_status_broadcast_label">слухати внутрішні статус-оповіщення</string>
+    <string name="perm_gsf_read_gservices_label">читати конфігурацію служби Google</string>
+    <string name="perm_c2dm_receive_label">слухати повідомлення C2DM</string>
     <string name="perm_c2dm_send_label">надсилати повідомлення C2DM іншим застосункам</string>
-    <string name="perm_gtalk_svc_label">Дозвіл на обробку</string>
+    <string name="perm_gtalk_svc_label">обмінюватися повідомленнями та отримувати сповіщення про синхронізацію від серверів Google</string>
     <string name="perm_extended_access_label">Дозвіл на обробку</string>
     <!--Conditions-->
     <string name="cond_gcm_bat_title">Дозвіл на обробку</string>

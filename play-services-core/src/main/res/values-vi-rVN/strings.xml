@@ -24,7 +24,7 @@
     <string name="signin_subtext_sharing">Để tiếp tục, microG sẽ chia sẻ TÊN, ĐỊA CHỈ EMAIL, ẢNH ĐẠI DIỆN tài khoản Google của bạn với %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
-    <string name="auth_before_connect">"Liên kết tài khoản Google với microG.\n\nĐể tiếp tục, hãy ấn nút <b>Đăng nhập</b> hoặc <b>Huawei</b> nếu bạn đang sử dụng thiết bị đến từ Huawei. Khi đó, bạn sẽ được chuyển đến trang đăng nhập."</string>
+    <string name="auth_before_connect">"Liên kết tài khoản Google với microG.\n\nĐể tiếp tục, hãy bấm nút <b>Đăng nhập</b> hoặc <b>Huawei</b> nếu bạn đang sử dụng thiết bị đến từ Huawei. Khi đó, bạn sẽ được chuyển đến trang đăng nhập."</string>
     <string name="auth_connecting">"Đang chuyển đến trang đăng nhập của Google.\n\nQuá trình này sẽ hoàn tất sau giây lát"</string>
     <string name="auth_no_network_error_desc">"Không có kết nối mạng.\n\nCó thể do mạng yếu hoặc sự cố tạm thời từ máy chủ, hãy kiểm tra kết nối mạng và thử lại"</string>
     <string name="auth_general_error_desc">"Không thể kết nối với máy chủ Google.\n\nHãy thử lại sau"</string>
@@ -119,14 +119,14 @@ Một số ứng dụng có thể không đăng ký lại được và sẽ cầ
     <string name="self_check_action_download_morphe">Tải xuống Morphe</string>
     <!--self check: permission-->
     <string name="self_check_name_notifications">Bật thông báo</string>
-    <string name="self_check_resolution_notifications">Ấn vào đây để mở cài đặt thông báo. Bật thông báo để giữ cho GcmService chạy trong nền khi bật tối ưu hóa hoặc tương tự</string>
+    <string name="self_check_resolution_notifications">Bấm vào đây để mở cài đặt thông báo. Bật thông báo để giữ cho GcmService chạy trong nền khi bật tối ưu hóa hoặc tương tự</string>
     <string name="self_check_name_overlay">Hiện trên ứng dụng khác</string>
-    <string name="self_check_resolution_overlay">Ấn vào đây để cấp quyền này. Cấp quyền để hiện thông báo nổi trên ứng dụng khác</string>
+    <string name="self_check_resolution_overlay">Bấm vào đây để cấp quyền này. Cấp quyền để hiện thông báo nổi trên ứng dụng khác</string>
     <!--self check: system-->
     <string name="self_check_name_battery_optimizations">Tắt tối ưu hóa pin</string>
-    <string name="self_check_resolution_battery_optimizations">Ấn vào đây để tắt tối ưu hóa pin. Nếu vẫn bật, bạn có thể sẽ bỏ lỡ các thông báo đẩy từ YouTube và các ứng dụng khác</string>
+    <string name="self_check_resolution_battery_optimizations">Bấm vào đây để tắt tối ưu hóa pin. Nếu vẫn bật, bạn có thể sẽ bỏ lỡ các thông báo đẩy từ YouTube và các ứng dụng khác</string>
     <string name="self_check_name_oem_restriction">Hạn chế hoạt động nền</string>
-    <string name="self_check_resolution_oem_restriction">Hệ thống có thể đang tự hạn chế hoạt động nền. Ấn vào đây để mở \'Don’t Kill My App!\' và xem cách tắt</string>
+    <string name="self_check_resolution_oem_restriction">Hệ thống có thể đang tự hạn chế hoạt động nền. Bấm vào đây để mở \'Don’t Kill My App!\' và xem cách tắt</string>
     <!--self check: signature-->
     <string name="self_check_name_system_spoofs">Giả mạo chữ ký hệ thống</string>
     <string name="self_check_resolution_system_spoofs">Vui lòng đọc tài liệu để biết các bước cần thực hiện</string>
@@ -159,7 +159,7 @@ Một số ứng dụng có thể không đăng ký lại được và sẽ cầ
     <string name="pref_accounts_manage_accounts_summary">Mở trình quản lý tài khoản của hệ thống</string>
     <string name="pref_manage_all_history">Quản lý toàn bộ nhật ký</string>
     <string name="pref_data_in_youtube">Dữ liệu của bạn trong Youtube</string>
-    <string name="pref_accounts_login_accounts_summary">Tài khoản chỉ được lưu trên thiết bị này. Ấn vào tài khoản để xóa vĩnh viễn</string>
+    <string name="pref_accounts_login_accounts_summary">Tài khoản chỉ được lưu trên thiết bị này. Bấm vào tài khoản để xóa vĩnh viễn</string>
     <!--preferences: device registration-->
     <string name="pref_device_registration_device_profile_category">Cấu hình thiết bị</string>
     <string name="pref_device_registration_select_profile_title">Chọn cấu hình</string>

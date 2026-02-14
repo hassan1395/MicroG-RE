@@ -55,8 +55,8 @@ Verileriniz kaybolmayacaktır"</string>
     <string name="snackbar_remove_account">Hesap %s kaldırıldı</string>
     <string name="snackbar_undo_button">Geri al</string>
     <!--Google Cloud Messaging-->
-    <string name="service_name_mcs">Cloud messaging</string>
-    <string name="gcm_enable_switch">Bildirimler etkinleştir</string>
+    <string name="service_name_mcs">Bulut mesajlaşma</string>
+    <string name="gcm_enable_switch">Anlık bildirimler</string>
     <!--gcm: register dialogs-->
     <string name="gcm_registered">Kaydolundu</string>
     <string name="gcm_unregister_app">Kaydı kaldır</string>
@@ -121,13 +121,13 @@ Devam et?"</string>
     <string name="profile_name_system">Sistem: %s</string>
     <!--Self Check-->
     <!--self check: categories-->
-    <string name="self_check_cat_system">Patlıklı uygulamalar</string>
+    <string name="self_check_cat_system">Sistem</string>
     <string name="self_check_cat_patched_apps">Kurulduğu paketler</string>
     <string name="self_check_cat_gms_packages">İmza sahtecilik desteği</string>
     <string name="self_check_cat_fake_sig">Morphe bildirimi</string>
     <!--self check: patched apps-->
-    <string name="self_check_source_morphe">Alternatif patlamalar</string>
-    <string name="self_check_source_alternative">Patlıklı uygulama yüklü: %1$s</string>
+    <string name="self_check_source_morphe">Morphe yamaları</string>
+    <string name="self_check_source_alternative">alternatif yamalar</string>
     <!-- %1$s is an app name, such as "Morphe" -->
     <string name="self_check_patched_app_installed">%1$s ile çalışıyor</string>
     <!-- %1$s is an app name, such as "YouTube" -->
@@ -136,10 +136,10 @@ Devam et?"</string>
     <!--self check: permission-->
     <string name="self_check_name_notifications">Bildirimler etkinleştirildi</string>
     <string name="self_check_resolution_notifications">Bildirimler için cihaz ayarlarını açmak için buraya tıklayın. Bildirimler, pil optimizasyonu etkinleştirildiğinde veya diğer koşullarda cihazin arka planda çalışması için gerekli</string>
-    <string name="self_check_name_overlay">Üzerindeki uygulamalar etkinleştirildi</string>
+    <string name="self_check_name_overlay">Diğer uygulamaların üzerinde göster etkinleştirildi</string>
     <string name="self_check_resolution_overlay">Bu izni almak için buraya tıklayın. Bu izni almak, cihazın üsteye açılan uyarı popup\'larını göstermek için gerekli</string>
     <!--self check: system-->
-    <string name="self_check_name_battery_optimizations">Bilgisayar optimizasyonları devre dışı bırakıldı</string>
+    <string name="self_check_name_battery_optimizations">Pil optimizasyonları devre dışı bırakıldı</string>
     <string name="self_check_resolution_battery_optimizations">Buraya tıklayarak batarya optimizasyonlarını devre dışı bırakabilirsiniz. Eğer devre dışı bırakılmazsa, YouTube ve kaydolan diğer uygulamalardan bildirimler almakta zorluk çekebilirsiniz</string>
     <string name="self_check_name_oem_restriction">Sistem imzaları sahtecilik yapar</string>
     <string name="self_check_resolution_oem_restriction">Belirtilen adımları izleyerek sistem imza sahtecilik sorununu çözün</string>
@@ -185,7 +185,7 @@ Devam et?"</string>
     <string name="pref_device_registration_android_id">Android ID</string>
     <string name="pref_checkin_enable_summary">Cihazınızı Google servislerine kaydıtır ve benzersiz bir cihaz kimliği oluşturur. microG kayştırma verilerinden Google hesabı adınınını haricinde tespit edici bileşenleri ayırır.</string>
     <!--preferences: cloud messaging-->
-    <string name="prefcat_push_apps_title">Uygulamalar için bildirimler etkinleştirildi</string>
+    <string name="prefcat_push_apps_title">Anlık bildirimleri kullanan uygulamalar</string>
     <string name="pref_push_app_allow_register_title">Uygulamaya kaydolma izni verildi</string>
     <string name="pref_push_app_allow_register_summary">Uygulamaya bildirimler için izin verildi</string>
     <string name="pref_push_app_wake_for_delivery_title">Uygulamayı arka planda çalışırarak gelen bildirimleri almak için etkinleştirildi</string>
@@ -212,9 +212,9 @@ Henüz desteklenmiyor"</string>
     <string name="pref_auth_strip_device_name_title">Kimlik doğrulamasını cihaz adı çıkar</string>
     <string name="pref_auth_strip_device_name_summary">Etkinleştirildiğinde, kimlik doğrulama isteğleri cihazın adını içermez, bu da yetkisiz cihazların oturum açmasına izin verir, ancak olası sonuçlar olabilir.</string>
     <!--preferences: hide icon in launcher-->
-    <string name="pref_hide_launcher_icon">Lanşörde simge gizle</string>
+    <string name="pref_hide_launcher_icon"> Launcher\'da simgeyi gizle</string>
     <!--preferences: about-->
-    <string name="pref_about_title">microG RE Hakkından</string>
+    <string name="pref_about_title">MicroG RE hakkında</string>
     <string name="pref_github_summary">Kaynak kod deposu</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">İç durum yayınları dinle</string>
