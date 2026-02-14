@@ -24,10 +24,10 @@
     </plurals>
     <!--Conditions-->
     <plurals name="cond_perm_summary">
-        <item quantity="one">Wymagane uprawnienie do prawidłowego działania Usług microG nie zostało przyznane.</item>
-        <item quantity="few">Wymagane uprawnienia do prawidłowego działania Usług microG nie zostały przyznane.</item>
-        <item quantity="many">Wymagane uprawnienia do prawidłowego działania Usług microG nie zostały przyznane.</item>
-        <item quantity="other">Wymagane uprawnienia do prawidłowego działania Usług microG nie zostały przyznane.</item>
+        <item quantity="one">Wymagane uprawnienie do prawidłowego działania usług microG nie zostało przyznane.</item>
+        <item quantity="few">Wymagane uprawnienia do prawidłowego działania usług microG nie zostały przyznane.</item>
+        <item quantity="many">Wymagane uprawnienia do prawidłowego działania usług microG nie zostały przyznane.</item>
+        <item quantity="other">Wymagane uprawnienia do prawidłowego działania usług microG nie zostały przyznane.</item>
     </plurals>
     <plurals name="cond_perm_action">
         <item quantity="one">Poproś o brakujące uprawnienie</item>

@@ -372,6 +372,7 @@ public class LoginActivity extends AssistantActivity {
                 .token(oAuthToken).isAccessToken()
                 .addAccount()
                 .getAccountId()
+                .droidguardResults("null" /*TODO*/)
                 .getResponseAsync(new HttpFormClient.Callback<AuthResponse>() {
                     @Override
                     public void onResponse(AuthResponse response) {
@@ -432,6 +433,7 @@ public class LoginActivity extends AssistantActivity {
                 .hasPermission(true)
                 .addAccount()
                 .getAccountId()
+                .droidguardResults("null")
                 .getResponseAsync(new HttpFormClient.Callback<AuthResponse>() {
                     @Override
                     public void onResponse(AuthResponse response) {

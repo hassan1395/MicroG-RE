@@ -11,7 +11,7 @@
     <!-- %1$s is a notification text such as "mnicroG Services" -->
     <string name="foreground_service_notification_big_text">ไม่อนุญาตให้ %1$s เข้าร่วมการปรับปรุงแบตเตอรี่หรือเปลี่ยนการตั้งค่าการแจ้งเตือนเพื่อซ่อนการแจ้งเตือนนี้</string>
     <!--foreground service: notification actions-->
-    <string name="foreground_action_battery_optimization">การจัดการการประหยัดแบตเตอรี่</string>
+    <string name="foreground_action_battery_optimization">การเพิ่มประสิทธิภาพแบตเตอรี่</string>
     <string name="foreground_action_notification_settings">การตั้งค่า</string>
     <!--Actionbar menu-->
     <string name="menu_settings">การตั้งค่า</string>

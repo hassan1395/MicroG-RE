@@ -20,11 +20,11 @@
         <item quantity="one">%1$d registrovaný app</item>
         <item quantity="few">%1$d registrovaných appů</item>
         <item quantity="many">%1$d registrovaných appů</item>
-        <item quantity="other">%1$d registrovaných appů</item>
+        <item quantity="other">%1$d registrovaných aplikací</item>
     </plurals>
     <!--Conditions-->
     <plurals name="cond_perm_summary">
-        <item quantity="one">Pro správnou funkci služeb microG je nutné povolit určitou oprávnění.</item>
+        <item quantity="one">Oprávnění požadované pro správnou funkci microG nebylo uděleno.</item>
         <item quantity="few">Pro správnou funkci služeb microG je nutné povolit určité oprávnění.</item>
         <item quantity="many">Pro správnou funkci služeb microG je nutné povolit určité oprávnění.</item>
         <item quantity="other">Pro správnou funkci služeb microG je nutné povolit určité oprávnění.</item>
